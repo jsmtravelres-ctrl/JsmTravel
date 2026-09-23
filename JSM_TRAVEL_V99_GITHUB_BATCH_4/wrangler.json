@@ -1,0 +1,22 @@
+{
+  "name": "jsmtravel",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-23",
+  "assets": {
+    "directory": "./_site",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/api/*"
+    ]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "jsm-travel-db",
+      "database_id": "e862928e-75e0-485f-b55e-2ad1b9edd8c4"
+    }
+  ],
+  "vars": {
+    "FXPORT_API_BASE": "https://api.fx-port.com"
+  }
+}

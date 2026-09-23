@@ -1,0 +1,1459 @@
+{
+  "راويه ان": {
+    "city": "الغردقة",
+    "stars": 5,
+    "status": "verified_by_user",
+    "arabicName": "راوية إن",
+    "image": "hotel-images/الغردقه-039.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Adrère Amellal Nature Lodge": {
+    "city": "سيوة",
+    "stars": null,
+    "image": "https://media.gemini.media/img/original/2017/6/6/2017_6_6_13_36_51_287.jpg",
+    "source": "https://www.adrereamellal.com/adrere/",
+    "description": "نُزل بيئي مميز في واحة سيوة، يضم 40 غرفة مبنية يدويًا بطابع سيوي تقليدي، وتُضاء الغرف بالشموع.",
+    "arabicName": "أدرير أميلال نايتشر لودج"
+  },
+  "Albabenshal Heritage Lodge": {
+    "city": "سيوة",
+    "stars": null,
+    "image": "https://i.pinimg.com/originals/6a/7f/a2/6a7fa28608412a42df27967673d7d867.jpg",
+    "source": "https://siwa.com/",
+    "description": "نُزل تراثي داخل منطقة قلعة شالي، بطابع معماري من الطين والملح ويعتمد على تجربة الإقامة التراثية في قلب سيوة.",
+    "arabicName": "ألبابنشل هيريتج لودج"
+  },
+  "Siwa Palace Eco-Lodge": {
+    "city": "سيوة",
+    "stars": null,
+    "image": "https://content.r9cdn.net/himg/c4/6f/aa/booking-10393160-510467829-595038.jpg",
+    "source": "https://www.venuereport.com/venue/siwa-palace-lodge/",
+    "description": "إقامة بطابع واحة سيوة مع مبانٍ مقوسة ومسبح وحديقة ومطعم وبار؛ التصنيف النجمي غير مثبت في قاعدة العمل.",
+    "arabicName": "سيوة بالاس إيكو لودج"
+  },
+  "Sheraton Sharm Hotel, Resort, Villas & Spa": {
+    "city": "شرم الشيخ",
+    "stars": 5,
+    "source": "https://www.marriott.com/en-us/hotels/sshsi-sheraton-sharm-hotel-resort-villas-and-spa/overview/",
+    "description": "منتجع شاطئي على ساحل الباشا مع شاطئ خاص، شعاب مرجانية، مسابح، سبا، نادي أطفال ومطاعم متعددة.",
+    "arabicName": "شيراتون شرم هوتيل ريزورت فيلاز آند سبا",
+    "uploaded_photo_reference": "sheraton Sharm Hotel, Resort, Villas & Spa.jpg"
+  },
+  "Sheraton Soma Bay Resort": {
+    "city": "الغردقة",
+    "stars": 5,
+    "source": "https://www.marriott.com/en-us/hotels/hrgss-sheraton-soma-bay-resort/overview/",
+    "description": "منتجع شاطئي في سوما باي يضم شاطئًا خاصًا، مسابح، أكوا بارك، سبا، جولف وتجارب غوص ورياضات مائية.",
+    "arabicName": "شيراتون سوما باي ريزورت",
+    "image": "hotel-images/الغردقه-041.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "77",
+      "Hotel Name": "Sheraton Soma Bay Resort",
+      "Classification": "5★",
+      "Area": "Soma Bay",
+      "Verified Highlights": "Beachfront/private sandy beach; pools; Soma Splash; spa"
+    }
+  },
+  "Sheraton Miramar Resort El Gouna": {
+    "city": "الغردقة",
+    "stars": null,
+    "source": "https://www.marriott.com/en-us/hotels/hrgsi-sheraton-miramar-resort-el-gouna/overview/",
+    "description": "منتجع في الجونة مبني على جزر متصلة ببحيرات، مع شواطئ خاصة ومسابح ونادٍ للأطفال وسبا وأنشطة مائية.",
+    "arabicName": "شيراتون ميرامار ريزورت الجونة",
+    "image": "hotel-images/الغردقه-040.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "76",
+      "Hotel Name": "Sheraton Miramar Resort El Gouna",
+      "Classification": "5★",
+      "Area": "El Gouna",
+      "Verified Highlights": "339 rooms/suites; private beaches; 3 pools; spa; kids club"
+    }
+  },
+  "Hilton Marsa Alam Nubian Resort": {
+    "city": "مرسى علم",
+    "stars": null,
+    "source": "https://www.hilton.com/en/hotels/rmfhihi-hilton-marsa-alam-nubian-resort/",
+    "description": "منتجع على شاطئ أبو دباب مع وصول مباشر للشاطئ والشعاب المرجانية، أربعة مسابح، أنشطة للأطفال ومطاعم وبارات متعددة.",
+    "arabicName": "هيلتون مرسى علم نوبيان ريزورت",
+    "image": "hotel-images/مرسي-علم-025.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Hilton Hurghada Plaza": {
+    "city": "الغردقة",
+    "stars": null,
+    "source": "https://www.hilton.com/en/locations/egypt/resorts/hilton-hotels/",
+    "description": "منتجع هيلتون في الغردقة؛ تم إدراجه ضمن منتجعات هيلتون الحالية في مصر.",
+    "arabicName": "هيلتون الغردقة بلازا",
+    "image": "hotel-images/الغردقه-042.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "78",
+      "Hotel Name": "Hilton Hurghada Plaza",
+      "Classification": "5★",
+      "Area": "Gabal El Hareem, Hurghada",
+      "Verified Highlights": "531 units; beachfront/private sandy beach; pools; spa; kids facilities"
+    }
+  },
+  "Rixos Premium Alamein": {
+    "city": "الساحل الشمالي",
+    "stars": null,
+    "description": "فندق من مجموعة Rixos في الساحل الشمالي؛ التصنيف والتفاصيل التفصيلية تحتاج تثبيتًا من صفحة الفندق الرسمية قبل النشر النهائي.",
+    "arabicName": "ريكسوس بريميوم العلمين",
+    "image": "hotel-images/الساحل-الشمالي-002.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Rehana Royal": {
+    "city": "شرم الشيخ",
+    "stars": 5,
+    "image": "https://s.joinup.lv/uploads/hotel/26800/gallery/original/Rehana-Royal-Beach-Spa_18-min.jpg",
+    "source": "https://www.rehanaresorts.com/rehanaroyal",
+    "description": "منتجع Rehana Royal Beach Resort في خليج نبق؛ الموقع الرسمي يصنفه 5 نجوم ويعرض خدمات المنتجع والحديقة المائية والسبا.",
+    "arabicName": "ريحانة رويال",
+    "imageVerified": true
+  },
+  "Rehana Resort": {
+    "city": "شرم الشيخ",
+    "stars": 4,
+    "image": "https://www.ua.kayak.com/rimg/himg/33/10/05/expediav2-311295-300b60-941654.jpg?crop=true&height=607&width=836",
+    "source": "https://www.rehanaresorts.com/rehanasharmresort-gallery",
+    "description": "منتجع Rehana Sharm Resort في خليج نبق؛ الموقع الرسمي يصفه كفندق 4 نجوم ويعرض معرض الصور والمرافق.",
+    "arabicName": "ريحانة شرم ريزورت",
+    "imageVerified": true
+  },
+  "Regency Plaza Aqua Park": {
+    "city": "شرم الشيخ",
+    "stars": 5,
+    "image": "https://regency-plaza-aqua-park-and-spa-resort.hotel-sharm-el-sheikh.com/data/Photos/700x500w/17427/1742742/1742742027.JPEG",
+    "source": "https://regency-plaza-aqua-park-and-spa-resort.hotel-sharm-el-sheikh.com/en/",
+    "description": "منتجع ريجنسي بلازا أكوا بارك في شرم الشيخ، وتظهر الصورة منطقة حمامات السباحة والزحاليق التابعة للمنتجع.",
+    "arabicName": "ريجنسي بلازا أكوا بارك",
+    "imageVerified": true
+  },
+  "Royal Regency Club": {
+    "city": "شرم الشيخ",
+    "stars": 5,
+    "image": "https://alida.lv/image/media/l/sharm-el-sheikh-royal-regency-club-3.jpg?format=webp&width=1024",
+    "source": "https://alida.lv/hotel/sharm-el-sheikh/royal-regency-club",
+    "description": "صورة لمجمع حمامات السباحة في Royal Regency Club بشرم الشيخ؛ المصدر يعرّف العقار بالاسم نفسه ويصنفه 5 نجوم.",
+    "arabicName": "رويال ريجنسي كلوب",
+    "imageVerified": true
+  },
+  "Romance Regency Club Adults Only 16+": {
+    "city": "شرم الشيخ",
+    "stars": 5,
+    "image": "https://cdn.alida.lv/storage/app/public/processed/webp/1024/media/l/romance-regency-club-adults-only-16-_1769944477_13.webp.webp",
+    "source": "https://alida.lv/hotel/sharm-el-sheikh/romance-regency-club-adults-only-16-",
+    "description": "صورة لغرفة Romance Regency Club Adults Only 16+؛ المصدر يعرّف الفندق بالاسم نفسه ويصنفه 5 نجوم.",
+    "arabicName": "رومانس ريجنسي كلوب للبالغين +16",
+    "imageVerified": true
+  },
+  "Amwaj Oyoun": {
+    "city": "شرم الشيخ",
+    "stars": 4,
+    "image": "https://cdn.karpaten.ro/media/cache/big_image_slider/images/hotel/19817/s3-amwaj-oyoun-resort-casino-722007.jpg",
+    "source": "https://amwajoyoun.com/",
+    "description": "صورة مدخل Amwaj Oyoun Resort & Spa؛ الموقع الرسمي يؤكد اسم المنتجع وموقعه في شرم الشيخ ويعرض مرافقه ومعرض صوره.",
+    "arabicName": "أمواج عيون",
+    "imageVerified": true
+  },
+  "Parrotel Aqua Park": {
+    "city": "شرم الشيخ",
+    "stars": 4,
+    "image": "https://files.anextour.kz/hotel/egypt/hotel/parrotel-aqua-park-resort-ex-park-inn-by-radi-sharm-el-sheikh/o489088?hotelCode=825",
+    "source": "https://parrotelresorts.com/hotels/parrotel-aquapark-resort.html",
+    "description": "صورة لمدخل Parrotel Aqua Park Resort؛ الموقع الرسمي يؤكد اسم المنتجع وموقعه في خليج نبق ومرافقه المائية.",
+    "arabicName": "باروتيل أكوا بارك",
+    "imageVerified": true
+  },
+  "Parrotel Lagoon": {
+    "city": "شرم الشيخ",
+    "stars": 5,
+    "image": "https://travelhit.ee/ww/wp-content/uploads/2022/09/Parrotel-Lagoon-Resort-54-powhiiqa0f3mvtkecyl0dglfuwsnoch9gwztv0xa80.jpg",
+    "source": "https://www.parrotelresorts.com/",
+    "description": "صورة لمدخل Parrotel Lagoon Resort؛ موقع Parrotel الرسمي يدرج Parrotel Lagoon Waterpark Resort ضمن فنادق المجموعة.",
+    "arabicName": "باروتيل لاجون",
+    "imageVerified": true
+  },
+  "Parrotel Beach": {
+    "city": "شرم الشيخ",
+    "stars": 5,
+    "image": "https://www.sharm-alshaykh.com/uploads/covers/1561029543.jpg",
+    "source": "https://www.parrotelresorts.com/hotels/parrotel-beach-resort.html",
+    "description": "صورة لمدخل Parrotel Beach Resort؛ الموقع الرسمي يؤكد أنه في خليج نبق بشرم الشيخ.",
+    "arabicName": "باروتيل بيتش",
+    "imageVerified": true
+  },
+  "Sharm Plaza": {
+    "city": "شرم الشيخ",
+    "stars": 5,
+    "image": "https://www.westexpress.lt/travels/sarm-el-seichas/476580968.jpg",
+    "source": "https://redseahotels.com/resorts/sharm-el-sheikh/sharm-plaza/",
+    "description": "صورة لمسبح ومنطقة شاطئ Sharm Plaza Hotel؛ المصدر يعرّف الفندق بالاسم والموقع ويعرض مرافقه.",
+    "arabicName": "شارم بلازا",
+    "imageVerified": true
+  },
+  "Swiss Heaven Sharming Inn": {
+    "city": "شرم الشيخ",
+    "stars": 4,
+    "image": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/648204917.jpg?k=341d4f0df227889125c604dad72e46694880e429cfd3c09af7eb16ae697c2075&o=",
+    "source": "https://swissheavenhotels.com/",
+    "description": "صورة لغرفة Swiss Heaven - Sharming Inn؛ الموقع الرسمي يعرّف الفندق كفندق 4 نجوم في شرم الشيخ.",
+    "arabicName": "سويس هيفن شارمينج إن",
+    "imageVerified": true
+  },
+  "Royal Naama": {
+    "city": "شرم الشيخ",
+    "stars": 3,
+    "image": "https://calypsotour.com/assets/components/phpthumbof/cache/_06f88dcf06c679d740983e3656f0ac2a.1dcaa8e45abb27ee736df360933f4c5e.jpg",
+    "source": "https://www.royalnamaabayresort.com/",
+    "description": "صورة للعقار Royal Naama Bay؛ الموقع الرسمي يؤكد اسم الفندق ومرافقه وعدد الغرف.",
+    "arabicName": "رويال نعمة",
+    "imageVerified": true
+  },
+  "Safir Dahab": {
+    "arabicName": "سفير دهب",
+    "image": "hotel-images/دهب-003.jpg",
+    "source": "Safir Dahab Resort photo result",
+    "verified": true,
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "83",
+      "Hotel Name": "Safir Dahab Resort",
+      "Classification": "5 نجوم",
+      "Area": "واجهة بحرية؛ حوالي 3 كم من مركز دهب",
+      "Beach": "شاطئ خاص رملي",
+      "Rooms": "159 غرفة/جناح",
+      "Pools": "2 حمام سباحة + Kids Pool",
+      "Restaurants/Bars": "3 مطاعم: Flavors, Portofino, Catch؛ عدة بارات",
+      "Facilities & Activities": "Diving, Snorkeling, Windsurfing, Tennis, Fitness, Spa, Massage, Kids Club, Playground",
+      "Meals": "حسب الحجز",
+      "Data Status": "تم التحقق؛ 2026"
+    }
+  },
+  "Dahab Lagoon": {
+    "arabicName": "دهب لاجون",
+    "image": "hotel-images/دهب-002.jpg",
+    "source": "Booking.com property photo",
+    "verified": true,
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "82",
+      "Hotel Name": "Dahab Lagoon Club & Resort",
+      "Classification": "4 نجوم",
+      "Area": "جنوب دهب؛ حوالي 3 كم من المركز",
+      "Beach": "شاطئ خاص رملي، 650م",
+      "Rooms": "139 غرفة في الـFact Sheet؛ فئات إضافية حالية ظاهرة بالموقع",
+      "Pools": "2 حمام سباحة",
+      "Restaurants/Bars": "3 مطاعم؛ 4 بارات (بحسب المصادر)",
+      "Facilities & Activities": "Diving, Windsurfing, Kitesurfing, Snorkeling, Tennis, Fitness, Spa/Massage, Kids Club",
+      "Meals": "حسب الحجز؛ تشمل Half Board وAll Inclusive",
+      "Data Status": "تم التحقق؛ 2026"
+    }
+  },
+  "Tropitel Dahab": {
+    "arabicName": "تروبيتل دهب أواسيس",
+    "image": "hotel-images/دهب-004.jpg",
+    "source": "Amimir property photo",
+    "verified": true,
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "84",
+      "Hotel Name": "Tropitel Dahab Oasis",
+      "Classification": "4 نجوم",
+      "Area": "Blue Hole Road؛ حوالي 8 كم من مركز دهب",
+      "Beach": "شاطئ خاص؛ إطلالات خليج العقبة والجبال",
+      "Rooms": "145 غرفة/جناح",
+      "Pools": "2 حمام سباحة + Kids Pool؛ أحدها مدفأ شتاءً",
+      "Restaurants/Bars": "مطعم رئيسي + Seafood à la carte؛ Lobby/Beach/Pool Bars",
+      "Facilities & Activities": "Diving Center، Blue Hole/The Canyon، Volleyball, Mini Football, Table Tennis, Billiards, Animation, Health Club, Sauna, Steam, Massage, Kids Area",
+      "Meals": "Breakfast / Half Board / All Inclusive بحسب السعر",
+      "Data Status": "تم التحقق؛ 2026"
+    }
+  },
+  "Swiss Inn Dahab Resort": {
+    "arabicName": "سويس إن دهب ريزورت",
+    "image": "hotel-images/دهب-012.jpg",
+    "source": "Live the World property photo",
+    "verified": true,
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "92",
+      "Hotel Name": "Swiss Inn Resort Dahab",
+      "Classification": "4 نجوم",
+      "Area": "Lagoon Dahab؛ حوالي 3 كم من وسط دهب",
+      "Beach": "شاطئ خاص رملي؛ حوالي 200م",
+      "Rooms": "150 غرفة؛ Garden View, Superior Seaside, Family Seaside",
+      "Pools": "Outdoor Pool + Kids area/pool؛ الرئيسي مدفأ شتاءً",
+      "Restaurants/Bars": "El Khaima + Zeytoun Pool Restaurant؛ Beach Bar ومنافذ أخرى",
+      "Facilities & Activities": "SSI Diving Center, Windsurfing, Snorkeling, Kayaking, Water Skiing, Fitness, Spa/Massage, Sauna, Kids Club, Playground, Safaris",
+      "Meals": "Breakfast / Half Board / All Inclusive بحسب الحجز",
+      "Data Status": "تم التحقق؛ 2026؛ تجديد Standard Garden View حتى 30 سبتمبر 2026 حسب التحديث المذكور"
+    }
+  },
+  "Viva Sharm": {
+    "arabicName": "فيفا شرم",
+    "uploaded_photo_reference": "Viva Sharm.jpg"
+  },
+  "Sharm Holiday Resort": {
+    "arabicName": "شرم هوليداي ريزورت",
+    "uploaded_photo_reference": "Sharm Holiday Resort.jpg"
+  },
+  "Panorama Naama Heights": {
+    "arabicName": "بانوراما نعمة هايتس",
+    "uploaded_photo_reference": "Panorama Naama Heights.jpg"
+  },
+  "Queen Sharm Aqua Park": {
+    "arabicName": "كوين شرم أكوا بارك",
+    "uploaded_photo_reference": "Queen Sharm Aqua Park.jpg"
+  },
+  "Dreams Vacation Resort": {
+    "arabicName": "دريمز فاكيشن ريزورت",
+    "uploaded_photo_reference": "Dreams Vacation Resort.jpg"
+  },
+  "Dreams Beach": {
+    "arabicName": "دريمز بيتش",
+    "uploaded_photo_reference": "Dreams Beach.jpg"
+  },
+  "Gafy Resort Aqua Park": {
+    "arabicName": "جافي ريزورت أكوا بارك",
+    "uploaded_photo_reference": "Gafy Resort Aqua Park.jpg"
+  },
+  "Eden Rock": {
+    "arabicName": "إيدن روك",
+    "uploaded_photo_reference": "Eden Rock.jpg"
+  },
+  "Viking Club": {
+    "arabicName": "فايكنج كلوب",
+    "uploaded_photo_reference": "Viking Club.jpg"
+  },
+  "Old Vic": {
+    "arabicName": "أولد فيك",
+    "uploaded_photo_reference": "Old Vic.jpg"
+  },
+  "Continental Plaza": {
+    "arabicName": "كونتيننتال بلازا",
+    "uploaded_photo_reference": "Continental Plaza.jpg"
+  },
+  "Hollywood Palma de Sharm": {
+    "arabicName": "هوليوود بالما دي شرم",
+    "uploaded_photo_reference": "Hollywood Palma de Sharm.jpg"
+  },
+  "Renaissance Golden View Beach": {
+    "arabicName": "رينيسانس جولدن فيو بيتش",
+    "uploaded_photo_reference": "Renaissance Golden View Beach.jpg"
+  },
+  "Stella Di Mare": {
+    "arabicName": "ستيلا دي ماري"
+  },
+  "JAZ Sharm Dreams": {
+    "arabicName": "جاز شرم دريمز",
+    "uploaded_photo_reference": "JAZ Sharm Dreams.jpg"
+  },
+  "JAZ Fayrouz": {
+    "arabicName": "جاز فيروز",
+    "uploaded_photo_reference": "JAZ Fayrouz.jpg"
+  },
+  "JAZ Mirabel Beach": {
+    "arabicName": "جاز ميرابل بيتش",
+    "uploaded_photo_reference": "JAZ Mirabel Beach.jpg"
+  },
+  "JAZ Mirabel Park & Club": {
+    "arabicName": "جاز ميرابل بارك آند كلوب",
+    "uploaded_photo_reference": "JAZ Mirabel Park & Club.jpg"
+  },
+  "Charmillion Club Resort": {
+    "arabicName": "شارميليون كلوب ريزورت"
+  },
+  "Charmillion Sea Life": {
+    "arabicName": "شارميليون سي لايف",
+    "uploaded_photo_reference": "Charmillion Sea Life.jpg"
+  },
+  "Charmillion Gardens": {
+    "arabicName": "شارميليون جاردنز",
+    "uploaded_photo_reference": "Charmillion Gardens.jpg"
+  },
+  "Rixos Sharm El Sheikh": {
+    "arabicName": "ريكسوس شرم الشيخ"
+  },
+  "Rixos Premium Seagate": {
+    "arabicName": "ريكسوس بريميوم سي جيت"
+  },
+  "Stella Gardens": {
+    "arabicName": "ستيلا جاردنز",
+    "image": "hotel-images/الغردقه-001.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "37",
+      "Hotel Name": "Stella Gardens Resort & Spa",
+      "Classification": "4★",
+      "Area": "Makadi Bay / Hurghada",
+      "Verified Highlights": "All Inclusive; pools; spa; beach access"
+    }
+  },
+  "Stella Beach": {
+    "arabicName": "ستيلا بيتش",
+    "image": "hotel-images/الغردقه-002.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "38",
+      "Hotel Name": "Stella Beach Resort & Spa",
+      "Classification": "5★",
+      "Area": "Makadi Bay / Hurghada",
+      "Verified Highlights": "Beachfront; private beach; pools; spa"
+    }
+  },
+  "Jasmine Palace": {
+    "arabicName": "جاسمين بالاس",
+    "image": "hotel-images/الغردقه-003.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "39",
+      "Hotel Name": "Jasmine Palace Resort & Spa",
+      "Classification": "5★",
+      "Area": "Sahl Hasheesh Road",
+      "Verified Highlights": "652 rooms; All Inclusive; pools; aqua park; spa"
+    }
+  },
+  "Amwaj Abu Soma": {
+    "arabicName": "أمواج أبو سوما",
+    "image": "hotel-images/الغردقه-004.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Caribbean World": {
+    "arabicName": "كاريبيان وورلد",
+    "image": "hotel-images/الغردقه-005.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "AMC Royal": {
+    "arabicName": "إيه إم سي رويال",
+    "image": "hotel-images/الغردقه-006.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "42",
+      "Hotel Name": "AMC Royal Hotel & Spa",
+      "Classification": "5★",
+      "Area": "Al Ahyaa, Hurghada",
+      "Verified Highlights": "Private beach; All Inclusive; pools; aqua park; spa"
+    }
+  },
+  "Amarina Abu Soma": {
+    "arabicName": "أمارينا أبو سوما",
+    "image": "hotel-images/الغردقه-007.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "43",
+      "Hotel Name": "Amarina Abu Soma Resort & Aquapark",
+      "Classification": "5★",
+      "Area": "Abu Soma / Safaga",
+      "Verified Highlights": "Private sandy beach; pools; aqua park; spa"
+    }
+  },
+  "Coral Sun Beach Resort - Safaga": {
+    "arabicName": "كورال صن بيتش ريزورت سفاجا",
+    "image": "hotel-images/الغردقه-008.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "55",
+      "Hotel Name": "Seagull Beach Resort",
+      "Classification": "4★ Deluxe",
+      "Area": "Sheraton Road, Hurghada",
+      "Verified Highlights": "2 private sandy beaches; pools/aqua park; All Inclusive; spa"
+    }
+  },
+  "Magic Beach": {
+    "arabicName": "ماجيك بيتش",
+    "image": "hotel-images/الغردقه-009.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "45",
+      "Hotel Name": "Magic Beach Hotel",
+      "Classification": "4★*",
+      "Area": "El Helal, Hurghada",
+      "Verified Highlights": "Beachfront/private beach; pools; water park; spa"
+    }
+  },
+  "Elysees Hotel by AMARINA Hotels & Resorts": {
+    "arabicName": "فندق إليسيز باي أمارينا هوتلز آند ريزورتس",
+    "image": "hotel-images/الغردقه-010.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "46",
+      "Hotel Name": "Elysees Dream Beach Hotel by AMARINA",
+      "Classification": "3–4★*",
+      "Area": "Sheraton Road / Mamsha",
+      "Verified Highlights": "Beachfront/private beach; pool; spa; dining"
+    }
+  },
+  "Giftun Azur Resort": {
+    "arabicName": "جيفتون أزور ريزورت",
+    "image": "hotel-images/الغردقه-011.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "57",
+      "Hotel Name": "Marlin Inn Azur Resort",
+      "Classification": "3–4★*",
+      "Area": "Touristic Road, Hurghada",
+      "Verified Highlights": "350 rooms; private sandy beach; All Inclusive; pool; spa"
+    }
+  },
+  "Sheraton Soma Bay": {
+    "arabicName": "شيراتون سوما باي",
+    "image": "hotel-images/الغردقه-012.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Mövenpick Resort Soma Bay": {
+    "arabicName": "موفنبيك ريزورت سوما باي",
+    "image": "hotel-images/الغردقه-013.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "80",
+      "Hotel Name": "Kempinski Hotel Soma Bay",
+      "Classification": "5★",
+      "Area": "Soma Bay",
+      "Verified Highlights": "325 rooms/suites; 400m private sandy beach; pools; spa/thalasso"
+    }
+  },
+  "Mirage Bay Resort & Aqua Park": {
+    "arabicName": "ميراج باي ريزورت آند أكوا بارك",
+    "image": "hotel-images/الغردقه-014.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "73",
+      "Hotel Name": "Royal Lagoons Resort & Aqua Park",
+      "Classification": "5★",
+      "Area": "Al Mamsha El Seyahi, Hurghada",
+      "Verified Highlights": "Beach shuttle; private sandy beach; 4 pools; aqua park; spa"
+    }
+  },
+  "Lemon & Soul": {
+    "arabicName": "ليمون آند سول",
+    "image": "hotel-images/الغردقه-015.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Seven Seas": {
+    "arabicName": "سفن سيز",
+    "image": "hotel-images/الغردقه-016.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "52",
+      "Hotel Name": "Seven Seas Jolie Bay",
+      "Classification": "5★",
+      "Area": "Soma Bay",
+      "Verified Highlights": "373 rooms; 6 pools; aqua park; sandy beach; Ultra All Inclusive"
+    }
+  },
+  "Moon Beach": {
+    "arabicName": "مون بيتش",
+    "image": "hotel-images/الغردقه-017.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "53",
+      "Hotel Name": "Moon Beach Resort",
+      "Classification": "4★*",
+      "Area": "El Dahar, Hurghada",
+      "Verified Highlights": "Beachfront/private beach; pools; water park; spa"
+    }
+  },
+  "Gravity Hurghada Aqua Park": {
+    "arabicName": "جرافيتي الغردقة أكوا بارك",
+    "image": "hotel-images/الغردقه-018.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "54",
+      "Hotel Name": "Gravity Hotel & Aqua Park Hurghada",
+      "Classification": "5★",
+      "Area": "Hurghada",
+      "Verified Highlights": "Beachfront/private beach; All Inclusive; aqua park; spa"
+    }
+  },
+  "Seagull": {
+    "arabicName": "سي جول",
+    "image": "hotel-images/الغردقه-019.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Sunny Days El Palacio": {
+    "arabicName": "صني دايز إل بالاسيو",
+    "image": "hotel-images/الغردقه-020.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "56",
+      "Hotel Name": "Sunny Days El Palacio Resort",
+      "Classification": "4★",
+      "Area": "Corniche, Hurghada",
+      "Verified Highlights": "Beachfront/private beach; pools; slides; All Inclusive"
+    }
+  },
+  "Marlin Inn": {
+    "arabicName": "مارلين إن",
+    "image": "hotel-images/الغردقه-021.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Al Basha": {
+    "arabicName": "الباشا",
+    "image": "hotel-images/الغردقه-022.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "58",
+      "Hotel Name": "Al Basha / Le Pacha Resort",
+      "Classification": "4★*",
+      "Area": "Sheraton Road, Hurghada",
+      "Verified Highlights": "Beachfront/private beach; pool; water slides; spa"
+    }
+  },
+  "Panorama Bungalows El Gouna": {
+    "arabicName": "بانوراما بنجالوز الجونة",
+    "image": "hotel-images/الغردقه-023.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "59",
+      "Hotel Name": "Panorama Bungalows Resort El Gouna",
+      "Classification": "4★",
+      "Area": "El Gouna",
+      "Verified Highlights": "Lagoon/beach access; pools; spa; family facilities"
+    }
+  },
+  "Plagio Luxury Resort": {
+    "arabicName": "بلاجيو لاكشري ريزورت",
+    "image": "hotel-images/الغردقه-024.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "60",
+      "Hotel Name": "Plagio Luxury Resort",
+      "Classification": "Needs Verification",
+      "Area": "Hurghada",
+      "Verified Highlights": "Exact property identity/data requires verification"
+    }
+  },
+  "Gravity Sahl Hasheesh": {
+    "arabicName": "جرافيتي سهل حشيش",
+    "image": "hotel-images/الغردقه-025.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "61",
+      "Hotel Name": "Gravity Hotel & Aqua Park Sahl Hasheesh",
+      "Classification": "5★",
+      "Area": "Sahl Hasheesh",
+      "Verified Highlights": "418 rooms; beachfront/private beach; 7 pools; aqua park; spa"
+    }
+  },
+  "The V Sahl Hasheesh": {
+    "arabicName": "ذا في سهل حشيش",
+    "image": "hotel-images/الغردقه-026.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "62",
+      "Hotel Name": "The V Luxury Resort Sahl Hasheesh",
+      "Classification": "5★",
+      "Area": "Sahl Hasheesh",
+      "Verified Highlights": "347 rooms; beachfront; Ultra All Inclusive; pools; aqua park; spa"
+    }
+  },
+  "Sentido Caribbean World Soma Bay": {
+    "arabicName": "سنتيدو كاريبيان وورلد سوما باي",
+    "image": "hotel-images/الغردقه-027.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "63",
+      "Hotel Name": "Sentido Caribbean World Soma Bay",
+      "Classification": "5★",
+      "Area": "Soma Bay",
+      "Verified Highlights": "604 units; private sandy beach; All Inclusive; pools/aqua park"
+    }
+  },
+  "Titanic Resort": {
+    "arabicName": "تيتانيك ريزورت",
+    "image": "hotel-images/الغردقه-028.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "75",
+      "Hotel Name": "Rewaya Inn Resort",
+      "Classification": "5★",
+      "Area": "Al Ahyaa, Hurghada",
+      "Verified Highlights": "Private sandy beach; All Inclusive; aqua park; pools"
+    }
+  },
+  "Titanic Beach": {
+    "arabicName": "تيتانيك بيتش",
+    "image": "hotel-images/الغردقه-029.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "65",
+      "Hotel Name": "Titanic Beach Spa & Aqua Park",
+      "Classification": "5★",
+      "Area": "Hurghada / Sahl Hasheesh Road",
+      "Verified Highlights": "726 rooms; private beach; Ultra All Inclusive; aqua park"
+    }
+  },
+  "Titanic Palace": {
+    "arabicName": "تيتانيك بالاس",
+    "image": "hotel-images/الغردقه-030.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "66",
+      "Hotel Name": "Titanic Palace",
+      "Classification": "5★",
+      "Area": "Hurghada",
+      "Verified Highlights": "593 rooms; private beach; Ultra All Inclusive; aqua park"
+    }
+  },
+  "Titanic Royal": {
+    "arabicName": "تيتانيك رويال",
+    "image": "hotel-images/الغردقه-031.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "67",
+      "Hotel Name": "Titanic Royal",
+      "Classification": "5★",
+      "Area": "Hurghada",
+      "Verified Highlights": "387 rooms/suites; private beach; Ultra/All Inclusive; aqua park"
+    }
+  },
+  "Dixon Roma": {
+    "arabicName": "ديكسون روما",
+    "image": "hotel-images/الغردقه-032.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "68",
+      "Hotel Name": "DEXON Roma Hotel",
+      "Classification": "3★",
+      "Area": "Sheraton Street, Hurghada",
+      "Verified Highlights": "147 rooms; private beach across road; All Inclusive; pool/aqua facilities"
+    }
+  },
+  "Karma Beach": {
+    "arabicName": "كارما بيتش",
+    "image": "hotel-images/الغردقه-033.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Fanadir Bay Luxury Aqua Park": {
+    "arabicName": "فنادقير باي لاكشري أكوا بارك",
+    "image": "hotel-images/الغردقه-034.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "70",
+      "Hotel Name": "Fanadir Bay Aquapark All Inclusive Resort",
+      "Classification": "Unverified",
+      "Area": "Al Ahyaa, Hurghada",
+      "Verified Highlights": "Private beach; All Inclusive; 4 pools; aqua park"
+    }
+  },
+  "Amwaj Beach Abu Soma": {
+    "arabicName": "أمواج بيتش أبو سوما",
+    "image": "hotel-images/الغردقه-035.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "71",
+      "Hotel Name": "Amwaj Beach Club Abu Soma",
+      "Classification": "4★",
+      "Area": "Abu Soma",
+      "Verified Highlights": "479 units; private sandy beach; 6 pools; aqua park; All Inclusive"
+    }
+  },
+  "Imperial Shams": {
+    "arabicName": "إمبريال شمس",
+    "image": "hotel-images/الغردقه-036.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "72",
+      "Hotel Name": "Imperial Shams Abu Soma",
+      "Classification": "4★",
+      "Area": "Abu Soma",
+      "Verified Highlights": "Beachfront/private sandy beach; All Inclusive; pools; kids aqua park"
+    }
+  },
+  "Royal Lagoons": {
+    "arabicName": "رويال لاجونز",
+    "image": "hotel-images/الغردقه-037.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Xanadu Makadi Bay": {
+    "arabicName": "زانادو مكادي باي",
+    "image": "hotel-images/الغردقه-038.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "74",
+      "Hotel Name": "Xanadu Makadi Bay",
+      "Classification": "5★",
+      "Area": "Makadi Bay",
+      "Verified Highlights": "815 rooms; beachfront; High Class All Inclusive; pools; aqua park"
+    }
+  },
+  "DoubleTree by Hilton Mangroovy El Gouna Resort": {
+    "arabicName": "دبل تري باي هيلتون مانجروفي الجونة ريزورت",
+    "image": "hotel-images/الغردقه-043.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "79",
+      "Hotel Name": "DoubleTree by Hilton Mangroovy El Gouna Resort",
+      "Classification": "5★",
+      "Area": "Mangroovy, El Gouna",
+      "Verified Highlights": "Private sandy beach; outdoor pool; spa; fitness"
+    }
+  },
+  "Ecotel Dahab Bay": {
+    "arabicName": "إيكوتيل دهب باي",
+    "image": "hotel-images/دهب-001.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "81",
+      "Hotel Name": "Ecotel Dahab Bay View Resort",
+      "Classification": "4 نجوم",
+      "Area": "Qunai Valley, Dahab",
+      "Beach": "شاطئ خاص صخري/مرجاني؛ لا يوصف كشاطئ رملي",
+      "Rooms": "218 غرفة",
+      "Pools": "2 حمام سباحة + حمام أطفال؛ Aqua Park بـ3 زلاقات",
+      "Restaurants/Bars": "3 مطاعم؛ عدة بارات",
+      "Facilities & Activities": "Diving/Snorkeling, Beach Tennis, Volleyball, Water Polo, Kitesurfing, Beach Soccer, Speedball, Spa, Sauna, Steam, Jacuzzi, Massage, Gym, Kids facilities",
+      "Meals": "Breakfast / Half Board / All Inclusive",
+      "Data Status": "تم التحقق؛ 2026"
+    }
+  },
+  "Retac Qunay": {
+    "arabicName": "ريتاك قناي",
+    "image": "hotel-images/دهب-005.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Panda Dahab": {
+    "arabicName": "باندا دهب",
+    "image": "hotel-images/دهب-006.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "86",
+      "Hotel Name": "Panda Dahab Resort",
+      "Classification": "3 نجوم",
+      "Area": "Tahrer Street / Lagoona Beach",
+      "Beach": "واجهة بحرية/شاطئ خاص",
+      "Rooms": "50 غرفة وفق المصادر الحالية؛ مصدر أقدم يذكر 60",
+      "Pools": "Outdoor Pool + Indoor Pool + Kids Pool",
+      "Restaurants/Bars": "Restaurant, Bar, Coffee Shop, Snack Bar",
+      "Facilities & Activities": "Diving, Snorkeling, Windsurfing, Water Sports, Horse Riding, Aerobics, Entertainment, Kids facilities",
+      "Meals": "Breakfast buffet؛ أنظمة أخرى حسب الحجز",
+      "Data Status": "تم التحقق؛ 2026؛ عدد الغرف فيه اختلاف تاريخي"
+    }
+  },
+  "Green Valley Hotel": {
+    "arabicName": "جرين فالي هوتيل",
+    "image": "hotel-images/دهب-007.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "87",
+      "Hotel Name": "Green Valley Hotel",
+      "Classification": "3 نجوم",
+      "Area": "El Masbat؛ قرب Lighthouse؛ حوالي 400م من Dahab Beach",
+      "Beach": "منطقة شاطئ خاصة",
+      "Rooms": "12–18 غرفة؛ المصادر الحالية متعارضة",
+      "Pools": "لا يوجد مسبح وفق Google الحالي",
+      "Restaurants/Bars": "Restaurant, Bar/Lounge, Snack Bar, Coffee Shop",
+      "Facilities & Activities": "Diving, Snorkeling, Windsurfing, Canoeing, Hiking, Cycling, Yoga, Aerobics, Evening Entertainment/Nightclub, Family/Kids facilities",
+      "Meals": "Halal breakfast؛ تفاصيل الأنظمة تحتاج تأكيد",
+      "Data Status": "تم التحقق؛ 2026؛ عدد الغرف يحتاج تأكيد"
+    }
+  },
+  "Miami Hotel": {
+    "arabicName": "ميامي هوتيل",
+    "image": "hotel-images/دهب-008.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "88",
+      "Hotel Name": "Miami Beach Resort",
+      "Classification": "3 نجوم بحسب مصادر الحجز الحالية",
+      "Area": "Blue Hole Road؛ حوالي 5 كم من مركز دهب",
+      "Beach": "شاطئ خاص / Beachfront",
+      "Rooms": "78 غرفة بحسب مصادر الحجز الحالية",
+      "Pools": "Outdoor Pool + Kids Pool",
+      "Restaurants/Bars": "Restaurant & Bar",
+      "Facilities & Activities": "Spa, Sauna, Kids Playground, Billiards, Table Tennis, Diving/Blue Hole & Abu Galoum excursions, Wi‑Fi, 24h Reception",
+      "Meals": "Breakfast / Half Board / Full Board / All Inclusive بحسب الحجز",
+      "Data Status": "تم التحقق؛ 2026"
+    }
+  },
+  "Sea View Dahab": {
+    "arabicName": "سي فيو دهب",
+    "image": "hotel-images/دهب-009.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "89",
+      "Hotel Name": "Sea View Dahab",
+      "Classification": "3 نجوم بحسب مصادر الفندق والحجز الحالية",
+      "Area": "Mashraba؛ واجهة بحرية",
+      "Beach": "Beachfront / منطقة شاطئ خاصة",
+      "Rooms": "غير متوفر بشكل موثوق في المصادر الحالية",
+      "Pools": "مصدر يذكر مسبحًا خارجيًا، ومصدر الفندق يذكر مسبحين؛ يحتاج تأكيد",
+      "Restaurants/Bars": "Restaurant؛ إفطار Continental/Vegetarian/Halal",
+      "Facilities & Activities": "Wi‑Fi, Room Service, Airport Shuttle, 24h Front Desk, Bicycle Rental, Private Beach, Diving area",
+      "Meals": "تفاصيل نظام الوجبات الكامل تحتاج تأكيد",
+      "Data Status": "تم التحقق؛ 2026؛ عدد الغرف والمسابح يحتاجان تأكيد"
+    }
+  },
+  "Actibus Hotel": {
+    "arabicName": "أكتوبس هوتيل",
+    "image": "hotel-images/دهب-010.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "90",
+      "Hotel Name": "Actibus Hotel Dahab",
+      "Classification": "غير متوفر بشكل موثوق",
+      "Area": "Dahab",
+      "Beach": "يحتاج تأكيد",
+      "Rooms": "غير متوفر بشكل موثوق",
+      "Pools": "يحتاج تأكيد",
+      "Restaurants/Bars": "يحتاج تأكيد",
+      "Facilities & Activities": "يحتاج تأكيد",
+      "Meals": "يحتاج تأكيد",
+      "Data Status": "يحتاج مصدر فندقي مباشر/موثوق لاستكمال البيانات"
+    }
+  },
+  "Happy Life": {
+    "arabicName": "هابي لايف",
+    "image": "hotel-images/دهب-011.jpg",
+    "image_source": "uploaded XLSX embedded image",
+    "source_research": {
+      "JSM ID": "91",
+      "Hotel Name": "Happy Life Village Dahab",
+      "Classification": "4 نجوم",
+      "Area": "Wadi Qunai / جنوب دهب",
+      "Beach": "شاطئ خاص رملي؛ Beachfront؛ شعاب مرجانية أمام الفندق",
+      "Rooms": "الموقع الرسمي يذكر 334 غرفة + 20 غرفة/وحدة عائلية؛ توجد أرقام مختلفة في مصادر أخرى",
+      "Pools": "3 حمامات سباحة + مناطق أطفال + Water Slides",
+      "Restaurants/Bars": "مطاعم داخل المنتجع",
+      "Facilities & Activities": "Diving/Snorkeling, Water Sports, Beach Volleyball, Water Polo, Table Tennis, Billiards, Fitness, Spa, Sauna, Jacuzzi, Steam, Massage, Kids Club, Playground, Animation, Desert trips",
+      "Meals": "Half Board / All Inclusive بحسب الحجز",
+      "Data Status": "تم التحقق؛ 2026؛ عدد الغرف يحتاج تحديث تشغيلي"
+    }
+  },
+  "Marina Radisson Port Ghalib": {
+    "arabicName": "مارينا راديسون بورت غالب",
+    "image": "hotel-images/مرسي-علم-001.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Marina Lodge Port Ghalib": {
+    "arabicName": "مارينا لودج بورت غالب",
+    "image": "hotel-images/مرسي-علم-002.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Casa Mare Resort Marsa Alam": {
+    "arabicName": "كازا ماري ريزورت مرسى علم",
+    "image": "hotel-images/مرسي-علم-003.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Casa Blue Luxury Resort": {
+    "arabicName": "كازا بلو لاكشري ريزورت",
+    "image": "hotel-images/مرسي-علم-004.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Sataya Resort Marsa Alam": {
+    "arabicName": "ساتايا ريزورت مرسى علم",
+    "image": "hotel-images/مرسي-علم-005.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Amarina Jannah Heights": {
+    "arabicName": "أمارينا جنة هايتس",
+    "image": "hotel-images/مرسي-علم-006.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Amarina Jannah Resort": {
+    "arabicName": "أمارينا جنة ريزورت",
+    "image": "hotel-images/مرسي-علم-007.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Amarina Queen Resort": {
+    "arabicName": "أمارينا كوين ريزورت",
+    "image": "hotel-images/مرسي-علم-008.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Concorde Moreen Beach Resort": {
+    "arabicName": "كونكورد مورين بيتش ريزورت",
+    "image": "hotel-images/مرسي-علم-009.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Lazuli Hotel Marsa Alam": {
+    "arabicName": "لازولي هوتيل مرسى علم",
+    "image": "hotel-images/مرسي-علم-010.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Protels Crystal": {
+    "arabicName": "بروتيلز كريستال",
+    "image": "hotel-images/مرسي-علم-011.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Fantazya Resort": {
+    "arabicName": "فانتازيا ريزورت",
+    "image": "hotel-images/مرسي-علم-012.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Sirena Beach Resort": {
+    "arabicName": "سيرينا بيتش ريزورت",
+    "image": "hotel-images/مرسي-علم-013.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Sentido Akassia Beach": {
+    "arabicName": "سنتيدو أكاسيا بيتش",
+    "image": "hotel-images/مرسي-علم-014.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "The Corners Happy Life": {
+    "arabicName": "ذا كورنرز هابي لايف",
+    "image": "hotel-images/مرسي-علم-015.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Diamond Beach Adults Only +12": {
+    "arabicName": "دايموند بيتش للبالغين +12",
+    "image": "hotel-images/مرسي-علم-016.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "MG Alexander the Great": {
+    "arabicName": "إم جي ألكسندر ذا جريت",
+    "image": "hotel-images/مرسي-علم-017.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Bliss Nada Resort": {
+    "arabicName": "بليس نادا ريزورت",
+    "image": "hotel-images/مرسي-علم-018.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Albatros Sea World Resort Marsa Alam": {
+    "arabicName": "الباتروس سي وورلد ريزورت مرسى علم",
+    "image": "hotel-images/مرسي-علم-019.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "The Palace Port Ghalib": {
+    "arabicName": "ذا بالاس بورت غالب",
+    "image": "hotel-images/مرسي-علم-020.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Albatros Oasis": {
+    "arabicName": "الباتروس أواسيس",
+    "image": "hotel-images/مرسي-علم-021.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Sands Port Ghalib": {
+    "arabicName": "ساندز بورت غالب",
+    "image": "hotel-images/مرسي-علم-022.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Pickalbatros Villaggio": {
+    "arabicName": "بيك الباتروس فيلاجيو",
+    "image": "hotel-images/مرسي-علم-023.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Pickalbatros Vita Resort Portofino": {
+    "arabicName": "بيك الباتروس فيتا ريزورت بورتوفينو",
+    "image": "hotel-images/مرسي-علم-024.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Stella Golf Hotel": {
+    "arabicName": "ستيلا جولف هوتيل",
+    "image": "hotel-images/العين-السخنه-001.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Stella Sea Club Hotel": {
+    "arabicName": "ستيلا سي كلوب هوتيل",
+    "image": "hotel-images/العين-السخنه-002.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Miral Hotel Ain El Sokhna": {
+    "arabicName": "ميرال هوتيل العين السخنة",
+    "image": "hotel-images/العين-السخنه-003.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Tolip Resort El Galala Hills": {
+    "arabicName": "توليب ريزورت الجلالة هيلز",
+    "image": "hotel-images/العين-السخنه-004.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Tolip Resort El Galala Majestic": {
+    "arabicName": "توليب ريزورت الجلالة ماجستيك",
+    "image": "hotel-images/العين-السخنه-005.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Tolip Resort El Galala Heights": {
+    "arabicName": "توليب ريزورت الجلالة هايتس",
+    "image": "hotel-images/العين-السخنه-006.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Al Fanar De Luna": {
+    "arabicName": "الفنار دي لونا",
+    "image": "hotel-images/العين-السخنه-007.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "La Rosa Empire": {
+    "arabicName": "لا روزا إمباير",
+    "image": "hotel-images/العين-السخنه-008.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Al Wadi Aqua Park": {
+    "arabicName": "الوادي أكوا بارك",
+    "image": "hotel-images/العين-السخنه-009.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Retal View Aqua Park": {
+    "arabicName": "ريتال فيو أكوا بارك",
+    "image": "hotel-images/العين-السخنه-010.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Dom Marina": {
+    "arabicName": "دوم مارينا",
+    "image": "hotel-images/العين-السخنه-011.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Palmira": {
+    "arabicName": "بالميرا",
+    "image": "hotel-images/العين-السخنه-012.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Teda Swiss Inn": {
+    "arabicName": "تيدا سويس إن",
+    "image": "hotel-images/العين-السخنه-013.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Blumar El Dome": {
+    "arabicName": "بلومار الدوم",
+    "image": "hotel-images/العين-السخنه-014.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Marina Wadi Degla": {
+    "arabicName": "مارينا وادي دجلة",
+    "image": "hotel-images/العين-السخنه-015.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Stella Grand": {
+    "arabicName": "ستيلا جراند",
+    "image": "hotel-images/العين-السخنه-016.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Cancun Sokhna Resort": {
+    "arabicName": "كانكون السخنة ريزورت",
+    "image": "hotel-images/العين-السخنه-017.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Elite Residence & Seaville": {
+    "arabicName": "إيليت ريزيدنس آند سي فيل",
+    "image": "hotel-images/العين-السخنه-018.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Coral Sea": {
+    "arabicName": "كورال سي",
+    "image": "hotel-images/العين-السخنه-019.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Galala Aqua Park": {
+    "arabicName": "الجلالة أكوا بارك"
+  },
+  "Galala Heights": {
+    "arabicName": "الجلالة هايتس"
+  },
+  "Grand Ocean": {
+    "arabicName": "جراند أوشن",
+    "image": "hotel-images/العين-السخنه-022.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Porto Sokhna": {
+    "arabicName": "بورتو السخنة",
+    "image": "hotel-images/العين-السخنه-023.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "JAZ Little Venice Golf Resort": {
+    "arabicName": "جاز ليتل فينيس جولف ريزورت",
+    "image": "hotel-images/العين-السخنه-024.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Mövenpick Resort El Sokhna": {
+    "arabicName": "موفنبيك ريزورت السخنة",
+    "image": "hotel-images/العين-السخنه-025.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Al Masa Hotel El Sokhna": {
+    "arabicName": "الماسة هوتيل السخنة",
+    "image": "hotel-images/العين-السخنه-026.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Tanoak Resort": {
+    "arabicName": "تانوك ريزورت",
+    "image": "hotel-images/العين-السخنه-027.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "The G Einbay Golf Resort": {
+    "arabicName": "ذا جي إن باي جولف ريزورت",
+    "image": "hotel-images/العين-السخنه-028.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Kefi Palmera Beach Resort": {
+    "arabicName": "كيفي بالميرا بيتش ريزورت",
+    "image": "hotel-images/العين-السخنه-029.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Lasirena Beach Hotel - Ain Sokhna": {
+    "arabicName": "لا سيرينا بيتش هوتيل العين السخنة",
+    "image": "hotel-images/العين-السخنه-030.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Strand Beach Resort Taba Heights": {
+    "arabicName": "ستراند بيتش ريزورت طابا هايتس",
+    "image": "hotel-images/طابا-001.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Tolip Taba Resort & Spa": {
+    "arabicName": "توليب طابا ريزورت آند سبا",
+    "image": "hotel-images/طابا-002.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "The Bayview Taba Heights Resort": {
+    "arabicName": "ذا باي فيو طابا هايتس ريزورت",
+    "image": "hotel-images/طابا-003.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Steigenberger Hotel & Nelson Village Taba": {
+    "arabicName": "شتايجنبرجر هوتيل آند نيلسون فيليج طابا",
+    "image": "hotel-images/طابا-004.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Mövenpick Resort Taba": {
+    "arabicName": "موفنبيك ريزورت طابا",
+    "image": "hotel-images/طابا-005.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Taba Sands Hotel & Casino": {
+    "arabicName": "طابا ساندز هوتيل آند كازينو",
+    "image": "hotel-images/طابا-006.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "La Playa Beach Resort": {
+    "arabicName": "لا بلايا بيتش ريزورت",
+    "image": "hotel-images/طابا-007.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Helnan Taba Hotel": {
+    "arabicName": "هلنان طابا هوتيل"
+  },
+  "Holiday Resort Taba": {
+    "arabicName": "هوليداي ريزورت طابا",
+    "image": "hotel-images/طابا-009.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Royal Taba Hotel": {
+    "arabicName": "رويال طابا هوتيل"
+  },
+  "Taba Hotel / Taba Boutique Hotel": {
+    "arabicName": "طابا هوتيل / طابا بوتيك هوتيل",
+    "image": "hotel-images/طابا-011.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "TOLIP North Coast Hotel & Resort": {
+    "arabicName": "توليب الساحل الشمالي هوتيل آند ريزورت"
+  },
+  "Crystal Inn Hotel - Alamein": {
+    "arabicName": "كريستال إن هوتيل العلمين",
+    "image": "hotel-images/الساحل-الشمالي-003.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Rhactus Hotel New Alamein": {
+    "arabicName": "راكتوس هوتيل العلمين الجديدة",
+    "image": "hotel-images/الساحل-الشمالي-004.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "M Hotels at Porto Marina": {
+    "arabicName": "إم هوتلز بورتو مارينا",
+    "image": "hotel-images/الساحل-الشمالي-005.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Tivoli Dome - Marina": {
+    "arabicName": "تيفولي دوم مارينا",
+    "image": "hotel-images/الساحل-الشمالي-006.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Prime Residence New Alamein": {
+    "arabicName": "برايم ريزيدنس العلمين الجديدة",
+    "image": "hotel-images/الساحل-الشمالي-007.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Florida Hotel North Coast": {
+    "arabicName": "فلوريدا هوتيل الساحل الشمالي"
+  },
+  "Palma Bay Rotana Resort": {
+    "arabicName": "بالما باي روتانا ريزورت",
+    "image": "hotel-images/الساحل-الشمالي-009.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Al Alamein Hotel": {
+    "arabicName": "العلمين هوتيل",
+    "image": "hotel-images/الساحل-الشمالي-010.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Address Beach Resort Marassi": {
+    "arabicName": "أدرس بيتش ريزورت مراسي",
+    "image": "hotel-images/الساحل-الشمالي-011.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Address Golf Resort Marassi": {
+    "arabicName": "أدرس جولف ريزورت مراسي"
+  },
+  "Vida Marina Resort Marassi": {
+    "arabicName": "فيدا مارينا ريزورت مراسي"
+  },
+  "Palace Beach Resort": {
+    "arabicName": "بالاس بيتش ريزورت"
+  },
+  "Marassi Boutique Hotel": {
+    "arabicName": "مراسي بوتيك هوتيل",
+    "image": "hotel-images/الساحل-الشمالي-015.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Le Sidi Boutique Hotel": {
+    "arabicName": "لو سيدي بوتيك هوتيل"
+  },
+  "Casa Cook North Coast - Adults Only": {
+    "arabicName": "كازا كوك الساحل الشمالي للبالغين فقط"
+  },
+  "JAZ Elite Crystal": {
+    "arabicName": "جاز إيليت كريستال"
+  },
+  "JAZ Viva Casa Maza": {
+    "arabicName": "جاز فيفا كازا مازا",
+    "image": "hotel-images/الساحل-الشمالي-019.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "JAZ Viva Villagio": {
+    "arabicName": "جاز فيفا فيلاجيو"
+  },
+  "Caesar Bay Resort": {
+    "arabicName": "سيزار باي ريزورت",
+    "image": "hotel-images/الساحل-الشمالي-021.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Retal View North Coast / Aqua Park": {
+    "arabicName": "ريتال فيو الساحل الشمالي / أكوا بارك",
+    "image": "hotel-images/الساحل-الشمالي-022.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "TIME Marina North Coast": {
+    "arabicName": "تايم مارينا الساحل الشمالي"
+  },
+  "Kenooz Shali Village Lodge": {
+    "arabicName": "كنوز شالي فيليج لودج",
+    "image": "hotel-images/سيوه-003.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Talist Siwa / Talist Sandiyya": {
+    "arabicName": "تالست سيوة / تالست سانديا",
+    "image": "hotel-images/سيوه-004.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Shali Lodge": {
+    "arabicName": "شالي لودج"
+  },
+  "Tighrasin Camp": {
+    "arabicName": "تجراسين كامب"
+  },
+  "Siwa Nostalgia Ecolodge": {
+    "arabicName": "نوستا ليجا إيكو لودج"
+  },
+  "GazRashek Siwa Eco Lodges": {
+    "arabicName": "جاز راشيك سيوة إيكو لودجز"
+  },
+  "Moon Valley Siwa": {
+    "arabicName": "مون فالي سيوة",
+    "image": "hotel-images/سيوه-005.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Asfay Lodge Siwa": {
+    "arabicName": "أسفاي لودج سيوة"
+  },
+  "Aghurmi Siwa Resort & Salt Cave": {
+    "arabicName": "أجرومي سيوة ريزورت آند سولت كيف"
+  },
+  "Ayur Lodge Siwa Oasis": {
+    "arabicName": "أيور لودج سيوة أواسيس"
+  },
+  "Tanirt Ecolodge": {
+    "arabicName": "تانيرت إيكو لودج"
+  },
+  "Agpeninshal Ecolodge": {
+    "arabicName": "أجنبي شال إيكو لودج"
+  },
+  "Nashdeen Eco Lodge": {
+    "arabicName": "ناشدين إيكو لودج"
+  },
+  "TATRABENT Eco Friendly Retreat": {
+    "arabicName": "تاترا بنت إيكو فريندلي ريتريت"
+  },
+  "Meddur Siwa Oasis": {
+    "arabicName": "مدور سيوة أواسيس"
+  },
+  "Cafour House Siwa": {
+    "arabicName": "كافور هاوس سيوة"
+  },
+  "Grand Siwa Eco Hotel": {
+    "arabicName": "جراند سيوة إيكو هوتيل"
+  },
+  "Panta Lodge Siwa": {
+    "arabicName": "بنتا لودج سيوة"
+  },
+  "Shasha Siwa Retreat & Thermal Spring": {
+    "arabicName": "شاشا سيوة ريتريت آند ثرمال سبرينج"
+  },
+  "Dream Lodge Hotel Siwa": {
+    "arabicName": "دريم لودج هوتيل سيوة"
+  },
+  "Qasr El Salam": {
+    "arabicName": "قصر السلام"
+  },
+  "Seliyaa Hotel": {
+    "arabicName": "سليا هوتيل"
+  },
+  "The Green Siwa Hotel": {
+    "arabicName": "جرين سيوة هوتيل"
+  },
+  "نعمة سيوة": {
+    "arabicName": "نعمة سيوة"
+  },
+  "Nirvana Home": {
+    "arabicName": "نيرفانا هوم"
+  },
+  "Siwa Safari Paradise Hotel": {
+    "arabicName": "سيوة سفاري بارادايس هوتيل"
+  },
+  "Reem Oasis Hotel": {
+    "arabicName": "ريم أواسيس هوتيل"
+  },
+  "Zella Hotel": {
+    "arabicName": "زيلا هوتيل"
+  },
+  "Azad Siwa Hotel": {
+    "arabicName": "أزاد سيوة هوتيل"
+  },
+  "Paloma Lodge Guest House": {
+    "arabicName": "بالوما لودج جيست هاوس"
+  },
+  "Baben Home": {
+    "arabicName": "بابن هوم"
+  },
+  "Friendo's House & Hot Spring": {
+    "arabicName": "فريندو هاوس آند هوت سبرينج"
+  },
+  "Dar Ismail Siwa": {
+    "arabicName": "دار إسماعيل سيوة"
+  },
+  "Sleep in Siwa": {
+    "arabicName": "سليب إن سيوة"
+  },
+  "Al-Manara Hostel": {
+    "arabicName": "المنارة هوستيل"
+  },
+  "Siwa Oracle Hostel": {
+    "arabicName": "سيوة أوراكل هوستيل"
+  },
+  "Neama Siwa": {
+    "image": "hotel-images/سيوه-006.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Siwa Oracle Hostel / Retreat Center": {
+    "image": "hotel-images/سيوه-007.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  },
+  "Siwa Palace Lodge / Eco-Lodge": {
+    "image": "hotel-images/سيوه-008.jpg",
+    "image_source": "uploaded XLSX embedded image"
+  }
+}
