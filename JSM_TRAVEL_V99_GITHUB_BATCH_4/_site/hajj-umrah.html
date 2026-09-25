@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="الحج والعمرة مع JSM TRAVEL — برامج عمرة وحج وخدمات حجز وإقامة ونقل ومتابعة من البداية حتى العودة.">
+<meta name="keywords" content="JSM TRAVEL, حج, عمرة, عمرة 2026, حج 1448, حج 2027, مكة, المدينة, السعودية">
+<meta property="og:title" content="الحج والعمرة | JSM TRAVEL">
+<meta property="og:description" content="خطط رحلتك إلى الأراضي المقدسة مع JSM TRAVEL. برامج عمرة وحج وخدمات سفر متكاملة.">
+<title>الحج والعمرة | JSM TRAVEL</title>
+<style>
+:root{
+  --bg:#f7f4ee;--card:#fff;--ink:#17231f;--muted:#66736d;
+  --green:#0c5b45;--green2:#0f7358;--gold:#b88a35;--line:#e7dfd2;
+  --shadow:0 14px 40px rgba(30,45,38,.10);--radius:22px;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Tahoma","Arial",sans-serif;background:var(--bg);color:var(--ink);line-height:1.8}
+a{text-decoration:none;color:inherit}
+.container{width:min(1160px,92%);margin:auto}
+.hero{
+  min-height:560px;display:flex;align-items:center;text-align:center;color:#fff;
+  background:
+  linear-gradient(rgba(5,42,31,.72),rgba(5,42,31,.78)),
+  radial-gradient(circle at 50% 25%,rgba(255,255,255,.10),transparent 35%),
+  linear-gradient(135deg,#0b6049,#071f18);
+  position:relative;overflow:hidden;
+}
+.hero:after{content:"";position:absolute;inset:auto -10% -150px;height:300px;background:var(--bg);border-radius:50% 50% 0 0/100% 100% 0 0}
+.hero-content{position:relative;z-index:2;width:100%;padding:70px 0 120px}
+.badge{display:inline-block;padding:7px 17px;border:1px solid rgba(255,255,255,.35);border-radius:999px;background:rgba(255,255,255,.09);font-size:14px;margin-bottom:18px}
+h1{font-size:clamp(38px,7vw,70px);margin:0 0 12px;font-weight:800}
+.hero p{font-size:clamp(17px,2.5vw,23px);max-width:760px;margin:0 auto 28px;color:#eef7f2}
+.ctas{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 22px;border-radius:12px;font-weight:700}
+.btn-primary{background:var(--gold);color:#fff}
+.btn-light{background:#fff;color:var(--green)}
+.section{padding:72px 0}
+.section-head{text-align:center;max-width:760px;margin:0 auto 36px}
+.eyebrow{color:var(--gold);font-weight:800;letter-spacing:.4px}
+h2{font-size:clamp(28px,4vw,42px);margin:6px 0 10px}
+.lead{color:var(--muted);font-size:17px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:25px;box-shadow:var(--shadow)}
+.card h3{margin:8px 0 8px;font-size:23px}
+.icon{font-size:34px}
+.card p{color:var(--muted);margin:0}
+.feature-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}
+.feature{background:#fff;border:1px solid var(--line);border-radius:18px;padding:20px;text-align:center}
+.feature strong{display:block;font-size:17px;margin-top:6px}
+.offer{
+  display:grid;grid-template-columns:1.1fr .9fr;gap:0;overflow:hidden;
+  background:#fff;border:1px solid var(--line);border-radius:28px;box-shadow:var(--shadow)
+}
+.offer-main{padding:34px}
+.offer-side{padding:34px;background:#f0eadf;border-right:1px solid var(--line)}
+.price{font-size:34px;color:var(--green);font-weight:900;margin:12px 0}
+.meta{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}
+.tag{background:#edf5f1;color:var(--green);padding:6px 11px;border-radius:999px;font-size:13px;font-weight:700}
+.list{padding:0;margin:18px 0 0;list-style:none}
+.list li{padding:7px 0;border-bottom:1px dashed var(--line)}
+.list li:last-child{border-bottom:0}
+.note{font-size:13px;color:var(--muted);margin-top:18px}
+.steps{counter-reset:step;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.step{position:relative;background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px}
+.step:before{counter-increment:step;content:counter(step);display:flex;width:38px;height:38px;border-radius:50%;align-items:center;justify-content:center;background:var(--green);color:#fff;font-weight:800;margin-bottom:10px}
+.faq{max-width:900px;margin:auto}
+details{background:#fff;border:1px solid var(--line);border-radius:16px;margin:10px 0;padding:17px 20px}
+summary{cursor:pointer;font-weight:800}
+.contact{
+  background:var(--green);color:#fff;border-radius:30px;padding:42px;text-align:center;
+}
+.contact p{color:#e4f0eb}
+.footer{padding:28px 0;text-align:center;color:var(--muted);font-size:14px}
+@media(max-width:850px){
+ .grid,.feature-grid,.steps{grid-template-columns:repeat(2,1fr)}
+ .offer{grid-template-columns:1fr}
+ .offer-side{border-right:0;border-top:1px solid var(--line)}
+}
+@media(max-width:560px){
+ .grid,.feature-grid,.steps{grid-template-columns:1fr}
+ .hero{min-height:510px}
+ .section{padding:52px 0}
+ .card,.offer-main,.offer-side,.contact{padding:22px}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="container hero-content">
+    <span class="badge">JSM TRAVEL • الحج والعمرة</span>
+    <h1>رحلة إلى الأراضي المقدسة</h1>
+    <p>برامج حج وعمرة وخدمات سفر متكاملة، مع متابعة وتنظيم يساعدك على الاستعداد لرحلتك من الحجز وحتى العودة.</p>
+    <div class="ctas">
+      <a class="btn btn-primary" href="#umrah">شاهد برامج العمرة</a>
+      <a class="btn btn-light" href="#contact">اطلب برنامجك</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">JSM TRAVEL</div>
+      <h2>خدمات الحج والعمرة</h2>
+      <p class="lead">صفحة واحدة تجمع البرامج والخدمات الأساسية مع إمكانية التواصل مع فريق JSM TRAVEL لمعرفة التفاصيل المتاحة لكل موعد.</p>
+    </div>
+    <div class="grid">
+      <article class="card"><div class="icon">🕋</div><h3>برامج العمرة</h3><p>برامج بعدد أيام مختلف، مع خيارات الإقامة والخدمات حسب البرنامج المتاح.</p></article>
+      <article class="card"><div class="icon">🤍</div><h3>برامج الحج</h3><p>استقبال طلبات الحج ومتابعة تفاصيل البرنامج وفق الأنظمة والمواعيد المعتمدة.</p></article>
+      <article class="card"><div class="icon">✈️</div><h3>تنظيم السفر</h3><p>تنسيق خدمات السفر والإقامة والنقل وفق تفاصيل البرنامج والحجز.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="umrah">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">UMRAH</div>
+      <h2>عرض عمرة VIP — أكتوبر 2026</h2>
+      <p class="lead">برنامج العمرة المذكور ضمن عروض JSM TRAVEL.</p>
+    </div>
+
+    <div class="offer">
+      <div class="offer-main">
+        <h3>عمرة VIP • أكتوبر 2026</h3>
+        <div class="meta">
+          <span class="tag">5 أكتوبر 2026</span>
+          <span class="tag">26 أكتوبر 2026</span>
+          <span class="tag">الخطوط السعودية</span>
+        </div>
+        <ul class="list">
+          <li><strong>مكة:</strong> أورانسيس المحبس</li>
+          <li><strong>المدينة:</strong> مجموعة ديار</li>
+          <li><strong>البرنامج:</strong> 15 يوم</li>
+          <li><strong>البرنامج:</strong> 10 أيام</li>
+        </ul>
+        <p class="note">الأسعار والتوافر النهائيان يخضعان لتأكيد الحجز قبل إصدار التذاكر والخدمات.</p>
+      </div>
+      <aside class="offer-side">
+        <h3>الأسعار</h3>
+        <div class="price">42,000 ج.م</div>
+        <p>للفرد — برنامج 15 يوم</p>
+        <div class="price">37,500 ج.م</div>
+        <p>للفرد — برنامج 10 أيام</p>
+        <a class="btn btn-primary" href="#contact">اطلب تفاصيل البرنامج</a>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">WHAT WE ARRANGE</div>
+      <h2>خدمات يمكن تنسيقها حسب البرنامج</h2>
+    </div>
+    <div class="feature-grid">
+      <div class="feature">🏨<strong>الإقامة</strong><span>اختيارات فنادق حسب البرنامج</span></div>
+      <div class="feature">✈️<strong>الطيران</strong><span>تنسيق بيانات الرحلة</span></div>
+      <div class="feature">🚌<strong>النقل</strong><span>خدمات النقل وفق البرنامج</span></div>
+      <div class="feature">📋<strong>المتابعة</strong><span>مساعدة في إجراءات الحجز</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="hajj">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">HAJJ 1448H / 2027</div>
+      <h2>الحج 1448هـ / 2027</h2>
+      <p class="lead">استقبل طلبك لبرنامج الحج، وسنوافيك بالتفاصيل المتاحة وفق البرنامج والإجراءات والمواعيد المعتمدة.</p>
+    </div>
+    <div class="card" style="max-width:900px;margin:auto">
+      <h3>ابدأ طلب الحج</h3>
+      <ul class="list">
+        <li>تسجيل بيانات المسافر ووسيلة التواصل.</li>
+        <li>تحديد عدد المسافرين والبرنامج المطلوب.</li>
+        <li>إرسال تفاصيل الإقامة والخدمات المتاحة عند فتح البرنامج.</li>
+        <li>تأكيد السعر والتوافر وشروط الحجز قبل السداد أو الإصدار.</li>
+      </ul>
+      <a class="btn btn-primary" href="#contact">تقديم طلب الحج</a>
+      <p class="note">ملاحظة: لا تُعرض هنا أرقام أو مواعيد نهائية غير مؤكدة؛ يتم تحديث بيانات الحج عند اعتماد التفاصيل النهائية.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">HOW IT WORKS</div>
+      <h2>خطوات الحجز</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><h3>أرسل طلبك</h3><p>أرسل الوجهة، الموعد، عدد الأشخاص والخدمات المطلوبة.</p></div>
+      <div class="step"><h3>نراجع الخيارات</h3><p>يتم تجهيز البرنامج المتاح وفق البيانات المرسلة.</p></div>
+      <div class="step"><h3>تأكيد التفاصيل</h3><p>يتم توضيح السعر والخدمات وشروط الحجز قبل الإصدار.</p></div>
+      <div class="step"><h3>إتمام الحجز</h3><p>بعد الموافقة، يتم استكمال إجراءات الحجز والإصدار.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="faq">
+      <div class="section-head">
+        <div class="eyebrow">FAQ</div>
+        <h2>أسئلة شائعة</h2>
+      </div>
+      <details><summary>هل أسعار العمرة ثابتة؟</summary><p>كل عرض منشور له سعره وشروطه الخاصة. يتم تأكيد التوافر والسعر النهائي قبل إصدار الخدمات.</p></details>
+      <details><summary>هل يمكن طلب برنامج عمرة خاص؟</summary><p>نعم، يمكن إرسال المدة وعدد المسافرين وتفضيلات الإقامة والخدمات لمراجعة البرنامج المناسب.</p></details>
+      <details><summary>كيف أقدم طلب حج؟</summary><p>اضغط على «تقديم طلب الحج» وأرسل بيانات التواصل والتفاصيل المطلوبة، ثم يتم إبلاغك بالخيارات المتاحة عند اعتمادها.</p></details>
+      <details><summary>هل تشمل البرامج الطيران والإقامة؟</summary><p>يختلف ذلك من برنامج لآخر، لذلك يتم توضيح مكونات كل عرض بشكل منفصل قبل الحجز.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="container">
+    <div class="contact">
+      <div class="eyebrow" style="color:#e4bd6b">JSM TRAVEL</div>
+      <h2>جاهز لرحلتك؟</h2>
+      <p>أرسل طلبك وسيتولى فريق JSM TRAVEL متابعة التفاصيل معك.</p>
+      <div class="ctas">
+        <a class="btn btn-primary" href="https://wa.me/201155595342" target="_blank" rel="noopener">واتساب 1</a>
+        <a class="btn btn-primary" href="https://wa.me/201116812031" target="_blank" rel="noopener">واتساب 2</a>
+        <a class="btn btn-light" href="mailto:reservations@jsmtravel.net">البريد الإلكتروني</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container">© JSM TRAVEL — جميع الحقوق محفوظة</div>
+</footer>
+</body>
+</html>

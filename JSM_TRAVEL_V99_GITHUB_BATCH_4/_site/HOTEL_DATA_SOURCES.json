@@ -1,0 +1,27 @@
+{
+  "uploaded_sources": [
+    "JSM_TRAVEL_صور_فنادق_الغردقة_44(1).xlsx",
+    "JSM_TRAVEL_صور_فنادق_مرسى_علم_25(1).xlsx",
+    "JSM_TRAVEL_صور_فنادق_دهب_12(1).xlsx",
+    "JSM_TRAVEL_صور_فنادق_العين_السخنة_28(1).xlsx",
+    "JSM_TRAVEL_صور_فنادق_الساحل_الشمالي_13(2).xlsx",
+    "JSM_TRAVEL_صور_فنادق_طابا_11(1).xlsx",
+    "JSM_TRAVEL_صور_فنادق_سيوة_9(1).xlsx",
+    "JSM_TRAVEL_Dahab_12_Hotels_Research(1).xlsx",
+    "JSM_TRAVEL_Hurghada_44_Hotels_Research(1).xlsx",
+    "JSM_TRAVEL_صور_فنادق_شرم_الشيخ(1).xlsx"
+  ],
+  "embedded_images_extracted": 139,
+  "research_records_merged": 56,
+  "hotel_counts": {
+    "شرم الشيخ": 36,
+    "الغردقة": 43,
+    "دهب": 12,
+    "مرسى علم": 25,
+    "العين السخنة": 30,
+    "طابا": 11,
+    "الساحل الشمالي": 23,
+    "سيوة": 9
+  },
+  "note": "Only data and images actually present in the uploaded workbooks were merged; missing images were not invented."
+}
