@@ -1,0 +1,9 @@
+{
+  "build": "JSM TRAVEL FINAL SEO OTA GROWTH V101 + V100 HOTELS",
+  "base": "V101 SEO OTA GROWTH READY",
+  "hotel_data_source": "V100 HOTELS IMAGES FINAL",
+  "cloudflare_worker": "jsmtravel",
+  "cloudflare_d1": "jsm-travel-db",
+  "do_not_modify_worker": "late-waterfall-9d04",
+  "merged_at": "2026-09-28"
+}

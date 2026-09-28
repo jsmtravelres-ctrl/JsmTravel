@@ -5,14 +5,14 @@
       5,
       "https://s.joinup.lv/uploads/hotel/26800/gallery/original/Rehana-Royal-Beach-Spa_18-min.jpg",
       "منتجع Rehana Royal Beach Resort في خليج نبق؛ الموقع الرسمي يصنفه 5 نجوم ويعرض خدمات المنتجع والحديقة المائية والسبا.",
-      "ريهانا رويال"
+      "ريحانه رويال"
     ],
     [
       "Rehana Resort",
       4,
       "https://www.ua.kayak.com/rimg/himg/33/10/05/expediav2-311295-300b60-941654.jpg?crop=true&height=607&width=836",
       "منتجع Rehana Sharm Resort في خليج نبق؛ الموقع الرسمي يصفه كفندق 4 نجوم ويعرض معرض الصور والمرافق.",
-      "ريهانا شرم ريزورت"
+      "ريحانه ريزورت"
     ],
     [
       "Regency Plaza Aqua Park",
@@ -24,8 +24,8 @@
     [
       "Royal Regency Club",
       5,
-      "https://alida.lv/image/media/l/sharm-el-sheikh-royal-regency-club-3.jpg?format=webp&width=1024",
-      "صورة لمجمع حمامات السباحة في Royal Regency Club بشرم الشيخ؛ المصدر يعرّف العقار بالاسم نفسه ويصنفه 5 نجوم.",
+      "https://royal-regency-club.redseahotelsegypt.com/data/Pictures/700x500w/17762/1776246/1776246643/picture-sharm-el-sheikh-royal-regency-club-1.JPEG",
+      "منتجع 5 نجوم في خليج نبق بشرم الشيخ، على شاطئ خاص ويضم مسابح ومرافق ترفيهية وأكوا بارك.",
       "رويال ريجنسي كلوب"
     ],
     [
@@ -143,7 +143,10 @@
     ],
     [
       "Stella Di Mare",
-      null
+      5,
+      "https://stelladimare.com/wp-content/uploads/2021/12/Stella_Di_Mare_Beach_Hotel_and_Spa_Sharm_El_Sheikh_Main_pool_view.jpg",
+      "فندق ومنتجع 5 نجوم في خليج نعمة بشرم الشيخ، على شاطئ خاص ويضم مسابح وسبا ومطاعم ومركز غوص.",
+      "ستيلا دي ماري"
     ],
     [
       "JAZ Sharm Dreams",
@@ -167,7 +170,10 @@
     ],
     [
       "Charmillion Club Resort",
-      null
+      5,
+      "https://charmillionresorts.com/images/uploads/Charmillion-Club-Resort-g-2.jpg",
+      "منتجع 5 نجوم على شاطئ خليج نبق، يضم شاطئًا خاصًا ومسابح ومطاعم وأنشطة ترفيهية ومرافق للعائلات.",
+      "شارميليون كلوب ريزورت"
     ],
     [
       "Charmillion Sea Life",
@@ -183,11 +189,17 @@
     ],
     [
       "Rixos Sharm El Sheikh",
-      5
+      5,
+      "https://assets.luxtripper.co.uk/media/fe84e0ad-5f49-494d-9636-643fe8ecc3f9/en/rixos_sharm_el_sheikh_adults_only_1920x1080.jpg",
+      "منتجع 5 نجوم للبالغين فقط 18+ في خليج نبق، يضم مسابح متعددة وشاطئًا خاصًا ومطاعم وسبا.",
+      "ريكسوس شرم الشيخ"
     ],
     [
       "Rixos Premium Seagate",
-      5
+      5,
+      "https://www.coraltravel.pl/_next/image?q=95&url=https%3A%2F%2Fcontent.coraltravel.pl%2Fresize%2F1600x900%2Fmedia%2Fimage%2F12%2F13279%2F636468765514289563.jpg&w=1920",
+      "منتجع 5 نجوم شامل كليًا في خليج نبق بشرم الشيخ، يضم مسابح متعددة وشاطئًا خاصًا ومرافق ترفيهية وعائلية.",
+      "ريكسوس بريميوم سي جيت"
     ]
   ],
   "الغردقة": [

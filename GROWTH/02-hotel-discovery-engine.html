@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>اكتشف الفنادق | JSM TRAVEL</title>
+<style>
+body{font-family:Arial,sans-serif;margin:0;background:#f6f8fb;color:#172033}
+.wrap{max-width:1100px;margin:auto;padding:24px}
+.search{background:#fff;padding:18px;border-radius:16px;box-shadow:0 5px 20px #0001;display:grid;gap:12px;grid-template-columns:2fr 1fr 1fr auto}
+input,select,button{padding:12px;border:1px solid #d8deea;border-radius:10px;font-size:15px}
+button{cursor:pointer;border:0;background:#0b5cff;color:white;font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:22px}
+.card{background:white;border-radius:16px;overflow:hidden;box-shadow:0 4px 16px #0001}
+.card img{width:100%;height:190px;object-fit:cover;background:#eee}
+.card .body{padding:15px}.stars{color:#c58a00}.muted{color:#657086}
+.cta{display:inline-block;margin-top:10px;text-decoration:none;background:#0b5cff;color:white;padding:10px 14px;border-radius:9px}
+@media(max-width:700px){.search{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>اكتشف الفنادق</h1>
+<p class="muted">ابحث داخل قاعدة فنادق JSM TRAVEL ثم انتقل إلى صفحة الفندق أو اطلب عرضاً.</p>
+
+<form id="search" class="search">
+<input id="q" placeholder="اسم الفندق أو المنطقة">
+<select id="destination">
+<option value="">كل الوجهات</option>
+<option>الغردقة</option><option>شرم الشيخ</option><option>دهب</option>
+<option>مرسى علم</option><option>العين السخنة</option><option>الساحل الشمالي</option>
+<option>طابا</option><option>سيوة</option>
+</select>
+<select id="stars">
+<option value="">كل التصنيفات</option><option value="3">3 نجوم</option>
+<option value="4">4 نجوم</option><option value="5">5 نجوم</option>
+</select>
+<button>بحث</button>
+</form>
+
+<div id="results" class="grid"></div>
+</div>
+
+<script>
+const API = '/api/hotels';
+
+function esc(v=''){return String(v).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));}
+
+async function loadHotels(){
+  const p=new URLSearchParams();
+  if(q.value.trim()) p.set('q',q.value.trim());
+  if(destination.value) p.set('destination',destination.value);
+  if(stars.value) p.set('stars',stars.value);
+
+  results.innerHTML='<p>جاري البحث...</p>';
+  try{
+    const r=await fetch(API+'?'+p.toString());
+    if(!r.ok) throw new Error('API '+r.status);
+    const data=await r.json();
+    const hotels=Array.isArray(data)?data:(data.hotels||[]);
+    if(!hotels.length){results.innerHTML='<p>لا توجد نتائج مطابقة.</p>';return;}
+    results.innerHTML=hotels.map(h=>`
+      <article class="card">
+        <img src="${esc(h.image||'/images/hotel-placeholder.jpg')}" alt="${esc(h.name_ar||h.name||'Hotel')}">
+        <div class="body">
+          <h2>${esc(h.name_ar||h.name)}</h2>
+          <div class="stars">${'★'.repeat(Number(h.stars||0))}</div>
+          <p class="muted">${esc(h.destination||'')} ${h.area?'— '+esc(h.area):''}</p>
+          ${h.description_ar?`<p>${esc(h.description_ar).slice(0,180)}...</p>`:''}
+          <a class="cta" href="/hotels/${encodeURIComponent(h.slug||h.id)}">عرض الفندق</a>
+          <a class="cta" href="/request.html?hotel=${encodeURIComponent(h.slug||h.id)}">اطلب عرض / حجز</a>
+        </div>
+      </article>`).join('');
+  }catch(e){
+    results.innerHTML='<p>تعذر تحميل قاعدة الفنادق حالياً. تأكد من مسار API /api/hotels.</p>';
+  }
+}
+search.addEventListener('submit',e=>{e.preventDefault();loadHotels()});
+loadHotels();
+</script>
+</body>
+</html>

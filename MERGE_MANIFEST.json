@@ -1,0 +1,25 @@
+{
+  "base_archive": "JSM_GITHUB_CLEAN(1).zip",
+  "base_size_bytes": 256443962,
+  "base_image_count": 532,
+  "base_file_count": 952,
+  "ota_non_image_files_added": 77,
+  "growth_files_added": 11,
+  "runtime_files_replaced": [
+    "JSM_GITHUB_CLEAN/worker.js",
+    "JSM_GITHUB_CLEAN/wrangler.json"
+  ],
+  "hotel_images_preserved": true,
+  "hotel_image_count_preserved": 532,
+  "notes": [
+    "V99 original archive is the source of truth for hotel images/assets.",
+    "No original V99 file is overwritten except worker.js and wrangler.json, which are replaced by the Growth/D1 integration runtime.",
+    "Hotel image files from the smaller OTA packages were not added to avoid duplicate/garbled filename sets; the 532-image V99 set is preserved intact.",
+    "Additional non-image OTA files and all Growth integration artifacts were added."
+  ],
+  "runtime_files_added_at_deploy_root": [
+    "JSM_GITHUB_CLEAN/worker.js",
+    "JSM_GITHUB_CLEAN/wrangler.json"
+  ],
+  "growth_worker_bytes": 24057
+}

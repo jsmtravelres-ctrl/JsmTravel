@@ -110,7 +110,7 @@
     "image": "https://s.joinup.lv/uploads/hotel/26800/gallery/original/Rehana-Royal-Beach-Spa_18-min.jpg",
     "source": "https://www.rehanaresorts.com/rehanaroyal",
     "description": "منتجع Rehana Royal Beach Resort في خليج نبق؛ الموقع الرسمي يصنفه 5 نجوم ويعرض خدمات المنتجع والحديقة المائية والسبا.",
-    "arabicName": "ريحانة رويال",
+    "arabicName": "ريحانه رويال",
     "imageVerified": true
   },
   "Rehana Resort": {
@@ -119,7 +119,7 @@
     "image": "https://www.ua.kayak.com/rimg/himg/33/10/05/expediav2-311295-300b60-941654.jpg?crop=true&height=607&width=836",
     "source": "https://www.rehanaresorts.com/rehanasharmresort-gallery",
     "description": "منتجع Rehana Sharm Resort في خليج نبق؛ الموقع الرسمي يصفه كفندق 4 نجوم ويعرض معرض الصور والمرافق.",
-    "arabicName": "ريحانة شرم ريزورت",
+    "arabicName": "ريحانه ريزورت",
     "imageVerified": true
   },
   "Regency Plaza Aqua Park": {
@@ -134,9 +134,9 @@
   "Royal Regency Club": {
     "city": "شرم الشيخ",
     "stars": 5,
-    "image": "https://alida.lv/image/media/l/sharm-el-sheikh-royal-regency-club-3.jpg?format=webp&width=1024",
-    "source": "https://alida.lv/hotel/sharm-el-sheikh/royal-regency-club",
-    "description": "صورة لمجمع حمامات السباحة في Royal Regency Club بشرم الشيخ؛ المصدر يعرّف العقار بالاسم نفسه ويصنفه 5 نجوم.",
+    "image": "https://royal-regency-club.redseahotelsegypt.com/data/Pictures/700x500w/17762/1776246/1776246643/picture-sharm-el-sheikh-royal-regency-club-1.JPEG",
+    "source": "https://royal-regency-club.redseahotelsegypt.com/en/",
+    "description": "منتجع 5 نجوم في خليج نبق بشرم الشيخ، على شاطئ خاص ويضم مسابح ومرافق ترفيهية وأكوا بارك.",
     "arabicName": "رويال ريجنسي كلوب",
     "imageVerified": true
   },
@@ -345,7 +345,13 @@
     "uploaded_photo_reference": "Renaissance Golden View Beach.jpg"
   },
   "Stella Di Mare": {
-    "arabicName": "ستيلا دي ماري"
+    "arabicName": "ستيلا دي ماري",
+    "city": "شرم الشيخ",
+    "stars": 5,
+    "image": "https://stelladimare.com/wp-content/uploads/2021/12/Stella_Di_Mare_Beach_Hotel_and_Spa_Sharm_El_Sheikh_Main_pool_view.jpg",
+    "source": "https://stelladimare.com/beach-hotel-spa/gallery/",
+    "description": "فندق ومنتجع 5 نجوم في خليج نعمة بشرم الشيخ، على شاطئ خاص ويضم مسابح وسبا ومطاعم ومركز غوص.",
+    "imageVerified": true
   },
   "JAZ Sharm Dreams": {
     "arabicName": "جاز شرم دريمز",
@@ -364,7 +370,13 @@
     "uploaded_photo_reference": "JAZ Mirabel Park & Club.jpg"
   },
   "Charmillion Club Resort": {
-    "arabicName": "شارميليون كلوب ريزورت"
+    "arabicName": "شارميليون كلوب ريزورت",
+    "city": "شرم الشيخ",
+    "stars": 5,
+    "image": "https://charmillionresorts.com/images/uploads/Charmillion-Club-Resort-g-2.jpg",
+    "source": "https://charmillionresorts.com/en/sharm-el-sheikh/charmillion-club-resort",
+    "description": "منتجع 5 نجوم على شاطئ خليج نبق، يضم شاطئًا خاصًا ومسابح ومطاعم وأنشطة ترفيهية ومرافق للعائلات.",
+    "imageVerified": true
   },
   "Charmillion Sea Life": {
     "arabicName": "شارميليون سي لايف",
@@ -375,10 +387,22 @@
     "uploaded_photo_reference": "Charmillion Gardens.jpg"
   },
   "Rixos Sharm El Sheikh": {
-    "arabicName": "ريكسوس شرم الشيخ"
+    "arabicName": "ريكسوس شرم الشيخ",
+    "city": "شرم الشيخ",
+    "stars": 5,
+    "image": "https://assets.luxtripper.co.uk/media/fe84e0ad-5f49-494d-9636-643fe8ecc3f9/en/rixos_sharm_el_sheikh_adults_only_1920x1080.jpg",
+    "source": "https://www.luxtripper.co.uk/rixos-sharm-el-sheikh-adults-only-18/",
+    "description": "منتجع 5 نجوم للبالغين فقط 18+ في خليج نبق، يضم مسابح متعددة وشاطئًا خاصًا ومطاعم وسبا.",
+    "imageVerified": true
   },
   "Rixos Premium Seagate": {
-    "arabicName": "ريكسوس بريميوم سي جيت"
+    "arabicName": "ريكسوس بريميوم سي جيت",
+    "city": "شرم الشيخ",
+    "stars": 5,
+    "image": "https://www.coraltravel.pl/_next/image?q=95&url=https%3A%2F%2Fcontent.coraltravel.pl%2Fresize%2F1600x900%2Fmedia%2Fimage%2F12%2F13279%2F636468765514289563.jpg&w=1920",
+    "source": "https://www.coraltravel.pl/hotel/egipt/rixos-premium-seagate-sharm-el-sheikh/",
+    "description": "منتجع 5 نجوم شامل كليًا في خليج نبق بشرم الشيخ، يضم مسابح متعددة وشاطئًا خاصًا ومرافق ترفيهية وعائلية.",
+    "imageVerified": true
   },
   "Stella Gardens": {
     "arabicName": "ستيلا جاردنز",

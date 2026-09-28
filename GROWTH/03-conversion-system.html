@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>اطلب عرضك | JSM TRAVEL</title>
+<style>
+body{font-family:Arial;margin:0;background:#f6f8fb}.wrap{max-width:720px;margin:auto;padding:24px}
+form{background:#fff;padding:22px;border-radius:16px;box-shadow:0 5px 20px #0001}
+label{display:block;margin-top:12px;font-weight:700}
+input,select,textarea{width:100%;box-sizing:border-box;padding:12px;margin-top:6px;border:1px solid #d8deea;border-radius:10px}
+button{margin-top:16px;padding:13px 18px;border:0;border-radius:10px;background:#0b5cff;color:#fff;font-weight:700;width:100%}
+#msg{margin-top:15px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>اطلب عرضك من JSM TRAVEL</h1>
+<p>أرسل التفاصيل وسيتم تحويل الطلب إلى فريق الحجوزات/CRM.</p>
+<form id="leadForm">
+<label>الاسم<input name="name" required></label>
+<label>الهاتف / واتساب<input name="phone" required></label>
+<label>الوجهة<input name="destination" required></label>
+<label>الفندق (اختياري)<input name="hotel"></label>
+<label>تاريخ السفر<input type="date" name="date"></label>
+<label>عدد الأشخاص<input type="number" name="people" min="1" value="2"></label>
+<label>الميزانية (اختياري)<input name="budget"></label>
+<label>ملاحظات<textarea name="notes" rows="5"></textarea></label>
+<button>إرسال الطلب</button>
+</form>
+<div id="msg"></div>
+</div>
+<script>
+const form=document.getElementById('leadForm');
+const msg=document.getElementById('msg');
+
+form.addEventListener('submit',async e=>{
+ e.preventDefault();
+ const payload=Object.fromEntries(new FormData(form).entries());
+ payload.source=new URLSearchParams(location.search).get('source')||document.referrer||'direct';
+ payload.landing_page=location.href;
+ payload.created_at=new Date().toISOString();
+
+ msg.textContent='جاري إرسال الطلب...';
+ try{
+   const r=await fetch('/api/leads',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+   if(!r.ok) throw new Error();
+   msg.textContent='تم استلام طلبك بنجاح. سيتواصل معك فريق JSM TRAVEL.';
+   form.reset();
+ }catch(err){
+   msg.textContent='تعذر الإرسال حالياً. يرجى المحاولة مرة أخرى أو التواصل عبر واتساب.';
+ }
+});
+</script>
+</body>
+</html>

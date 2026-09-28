@@ -1,0 +1,445 @@
+{
+  "Ecotel Dahab Bay View Resort": {
+    "JSM ID": "81",
+    "Hotel Name": "Ecotel Dahab Bay View Resort",
+    "Classification": "4 نجوم",
+    "Area": "Qunai Valley, Dahab",
+    "Beach": "شاطئ خاص صخري/مرجاني؛ لا يوصف كشاطئ رملي",
+    "Rooms": "218 غرفة",
+    "Pools": "2 حمام سباحة + حمام أطفال؛ Aqua Park بـ3 زلاقات",
+    "Restaurants/Bars": "3 مطاعم؛ عدة بارات",
+    "Facilities & Activities": "Diving/Snorkeling, Beach Tennis, Volleyball, Water Polo, Kitesurfing, Beach Soccer, Speedball, Spa, Sauna, Steam, Jacuzzi, Massage, Gym, Kids facilities",
+    "Meals": "Breakfast / Half Board / All Inclusive",
+    "Data Status": "تم التحقق؛ 2026"
+  },
+  "Dahab Lagoon Club & Resort": {
+    "JSM ID": "82",
+    "Hotel Name": "Dahab Lagoon Club & Resort",
+    "Classification": "4 نجوم",
+    "Area": "جنوب دهب؛ حوالي 3 كم من المركز",
+    "Beach": "شاطئ خاص رملي، 650م",
+    "Rooms": "139 غرفة في الـFact Sheet؛ فئات إضافية حالية ظاهرة بالموقع",
+    "Pools": "2 حمام سباحة",
+    "Restaurants/Bars": "3 مطاعم؛ 4 بارات (بحسب المصادر)",
+    "Facilities & Activities": "Diving, Windsurfing, Kitesurfing, Snorkeling, Tennis, Fitness, Spa/Massage, Kids Club",
+    "Meals": "حسب الحجز؛ تشمل Half Board وAll Inclusive",
+    "Data Status": "تم التحقق؛ 2026"
+  },
+  "Safir Dahab Resort": {
+    "JSM ID": "83",
+    "Hotel Name": "Safir Dahab Resort",
+    "Classification": "5 نجوم",
+    "Area": "واجهة بحرية؛ حوالي 3 كم من مركز دهب",
+    "Beach": "شاطئ خاص رملي",
+    "Rooms": "159 غرفة/جناح",
+    "Pools": "2 حمام سباحة + Kids Pool",
+    "Restaurants/Bars": "3 مطاعم: Flavors, Portofino, Catch؛ عدة بارات",
+    "Facilities & Activities": "Diving, Snorkeling, Windsurfing, Tennis, Fitness, Spa, Massage, Kids Club, Playground",
+    "Meals": "حسب الحجز",
+    "Data Status": "تم التحقق؛ 2026"
+  },
+  "Tropitel Dahab Oasis": {
+    "JSM ID": "84",
+    "Hotel Name": "Tropitel Dahab Oasis",
+    "Classification": "4 نجوم",
+    "Area": "Blue Hole Road؛ حوالي 8 كم من مركز دهب",
+    "Beach": "شاطئ خاص؛ إطلالات خليج العقبة والجبال",
+    "Rooms": "145 غرفة/جناح",
+    "Pools": "2 حمام سباحة + Kids Pool؛ أحدها مدفأ شتاءً",
+    "Restaurants/Bars": "مطعم رئيسي + Seafood à la carte؛ Lobby/Beach/Pool Bars",
+    "Facilities & Activities": "Diving Center، Blue Hole/The Canyon، Volleyball, Mini Football, Table Tennis, Billiards, Animation, Health Club, Sauna, Steam, Massage, Kids Area",
+    "Meals": "Breakfast / Half Board / All Inclusive بحسب السعر",
+    "Data Status": "تم التحقق؛ 2026"
+  },
+  "Retac Qunay Dahab Resort & Spa": {
+    "JSM ID": "85",
+    "Hotel Name": "Retac Qunay Dahab Resort & Spa",
+    "Classification": "غير مثبت بشكل موثوق",
+    "Area": "Dahab؛ حوالي 5 كم من الـPromenade و90 كم من مطار شرم الشيخ",
+    "Beach": "Beachfront / وصول مباشر للمياه",
+    "Rooms": "182 غرفة حاليًا؛ Standard 36م²، وفئات Deluxe/Executive Suite",
+    "Pools": "5 حمامات سباحة + Artificial Lagoon وفق الموقع الرسمي؛ Booking يذكر 4",
+    "Restaurants/Bars": "3 مطاعم",
+    "Facilities & Activities": "Spa, Fitness, Outdoor Massage, Diving/Snorkeling/Excursions, Kids Club",
+    "Meals": "Breakfast / Half Board / Full Board / All Inclusive",
+    "Data Status": "تم التحقق؛ 2026؛ التصنيف يحتاج تثبيت"
+  },
+  "Panda Dahab Resort": {
+    "JSM ID": "86",
+    "Hotel Name": "Panda Dahab Resort",
+    "Classification": "3 نجوم",
+    "Area": "Tahrer Street / Lagoona Beach",
+    "Beach": "واجهة بحرية/شاطئ خاص",
+    "Rooms": "50 غرفة وفق المصادر الحالية؛ مصدر أقدم يذكر 60",
+    "Pools": "Outdoor Pool + Indoor Pool + Kids Pool",
+    "Restaurants/Bars": "Restaurant, Bar, Coffee Shop, Snack Bar",
+    "Facilities & Activities": "Diving, Snorkeling, Windsurfing, Water Sports, Horse Riding, Aerobics, Entertainment, Kids facilities",
+    "Meals": "Breakfast buffet؛ أنظمة أخرى حسب الحجز",
+    "Data Status": "تم التحقق؛ 2026؛ عدد الغرف فيه اختلاف تاريخي"
+  },
+  "Green Valley Hotel": {
+    "JSM ID": "87",
+    "Hotel Name": "Green Valley Hotel",
+    "Classification": "3 نجوم",
+    "Area": "El Masbat؛ قرب Lighthouse؛ حوالي 400م من Dahab Beach",
+    "Beach": "منطقة شاطئ خاصة",
+    "Rooms": "12–18 غرفة؛ المصادر الحالية متعارضة",
+    "Pools": "لا يوجد مسبح وفق Google الحالي",
+    "Restaurants/Bars": "Restaurant, Bar/Lounge, Snack Bar, Coffee Shop",
+    "Facilities & Activities": "Diving, Snorkeling, Windsurfing, Canoeing, Hiking, Cycling, Yoga, Aerobics, Evening Entertainment/Nightclub, Family/Kids facilities",
+    "Meals": "Halal breakfast؛ تفاصيل الأنظمة تحتاج تأكيد",
+    "Data Status": "تم التحقق؛ 2026؛ عدد الغرف يحتاج تأكيد"
+  },
+  "Miami Beach Resort": {
+    "JSM ID": "88",
+    "Hotel Name": "Miami Beach Resort",
+    "Classification": "3 نجوم بحسب مصادر الحجز الحالية",
+    "Area": "Blue Hole Road؛ حوالي 5 كم من مركز دهب",
+    "Beach": "شاطئ خاص / Beachfront",
+    "Rooms": "78 غرفة بحسب مصادر الحجز الحالية",
+    "Pools": "Outdoor Pool + Kids Pool",
+    "Restaurants/Bars": "Restaurant & Bar",
+    "Facilities & Activities": "Spa, Sauna, Kids Playground, Billiards, Table Tennis, Diving/Blue Hole & Abu Galoum excursions, Wi‑Fi, 24h Reception",
+    "Meals": "Breakfast / Half Board / Full Board / All Inclusive بحسب الحجز",
+    "Data Status": "تم التحقق؛ 2026"
+  },
+  "Sea View Dahab": {
+    "JSM ID": "89",
+    "Hotel Name": "Sea View Dahab",
+    "Classification": "3 نجوم بحسب مصادر الفندق والحجز الحالية",
+    "Area": "Mashraba؛ واجهة بحرية",
+    "Beach": "Beachfront / منطقة شاطئ خاصة",
+    "Rooms": "غير متوفر بشكل موثوق في المصادر الحالية",
+    "Pools": "مصدر يذكر مسبحًا خارجيًا، ومصدر الفندق يذكر مسبحين؛ يحتاج تأكيد",
+    "Restaurants/Bars": "Restaurant؛ إفطار Continental/Vegetarian/Halal",
+    "Facilities & Activities": "Wi‑Fi, Room Service, Airport Shuttle, 24h Front Desk, Bicycle Rental, Private Beach, Diving area",
+    "Meals": "تفاصيل نظام الوجبات الكامل تحتاج تأكيد",
+    "Data Status": "تم التحقق؛ 2026؛ عدد الغرف والمسابح يحتاجان تأكيد"
+  },
+  "Actibus Hotel Dahab": {
+    "JSM ID": "90",
+    "Hotel Name": "Actibus Hotel Dahab",
+    "Classification": "غير متوفر بشكل موثوق",
+    "Area": "Dahab",
+    "Beach": "يحتاج تأكيد",
+    "Rooms": "غير متوفر بشكل موثوق",
+    "Pools": "يحتاج تأكيد",
+    "Restaurants/Bars": "يحتاج تأكيد",
+    "Facilities & Activities": "يحتاج تأكيد",
+    "Meals": "يحتاج تأكيد",
+    "Data Status": "يحتاج مصدر فندقي مباشر/موثوق لاستكمال البيانات"
+  },
+  "Happy Life Village Dahab": {
+    "JSM ID": "91",
+    "Hotel Name": "Happy Life Village Dahab",
+    "Classification": "4 نجوم",
+    "Area": "Wadi Qunai / جنوب دهب",
+    "Beach": "شاطئ خاص رملي؛ Beachfront؛ شعاب مرجانية أمام الفندق",
+    "Rooms": "الموقع الرسمي يذكر 334 غرفة + 20 غرفة/وحدة عائلية؛ توجد أرقام مختلفة في مصادر أخرى",
+    "Pools": "3 حمامات سباحة + مناطق أطفال + Water Slides",
+    "Restaurants/Bars": "مطاعم داخل المنتجع",
+    "Facilities & Activities": "Diving/Snorkeling, Water Sports, Beach Volleyball, Water Polo, Table Tennis, Billiards, Fitness, Spa, Sauna, Jacuzzi, Steam, Massage, Kids Club, Playground, Animation, Desert trips",
+    "Meals": "Half Board / All Inclusive بحسب الحجز",
+    "Data Status": "تم التحقق؛ 2026؛ عدد الغرف يحتاج تحديث تشغيلي"
+  },
+  "Swiss Inn Resort Dahab": {
+    "JSM ID": "92",
+    "Hotel Name": "Swiss Inn Resort Dahab",
+    "Classification": "4 نجوم",
+    "Area": "Lagoon Dahab؛ حوالي 3 كم من وسط دهب",
+    "Beach": "شاطئ خاص رملي؛ حوالي 200م",
+    "Rooms": "150 غرفة؛ Garden View, Superior Seaside, Family Seaside",
+    "Pools": "Outdoor Pool + Kids area/pool؛ الرئيسي مدفأ شتاءً",
+    "Restaurants/Bars": "El Khaima + Zeytoun Pool Restaurant؛ Beach Bar ومنافذ أخرى",
+    "Facilities & Activities": "SSI Diving Center, Windsurfing, Snorkeling, Kayaking, Water Skiing, Fitness, Spa/Massage, Sauna, Kids Club, Playground, Safaris",
+    "Meals": "Breakfast / Half Board / All Inclusive بحسب الحجز",
+    "Data Status": "تم التحقق؛ 2026؛ تجديد Standard Garden View حتى 30 سبتمبر 2026 حسب التحديث المذكور"
+  },
+  "Stella Gardens Resort & Spa": {
+    "JSM ID": "37",
+    "Hotel Name": "Stella Gardens Resort & Spa",
+    "Classification": "4★",
+    "Area": "Makadi Bay / Hurghada",
+    "Verified Highlights": "All Inclusive; pools; spa; beach access"
+  },
+  "Stella Beach Resort & Spa": {
+    "JSM ID": "38",
+    "Hotel Name": "Stella Beach Resort & Spa",
+    "Classification": "5★",
+    "Area": "Makadi Bay / Hurghada",
+    "Verified Highlights": "Beachfront; private beach; pools; spa"
+  },
+  "Jasmine Palace Resort & Spa": {
+    "JSM ID": "39",
+    "Hotel Name": "Jasmine Palace Resort & Spa",
+    "Classification": "5★",
+    "Area": "Sahl Hasheesh Road",
+    "Verified Highlights": "652 rooms; All Inclusive; pools; aqua park; spa"
+  },
+  "Amwaj Beach Club Abu Soma": {
+    "JSM ID": "71",
+    "Hotel Name": "Amwaj Beach Club Abu Soma",
+    "Classification": "4★",
+    "Area": "Abu Soma",
+    "Verified Highlights": "479 units; private sandy beach; 6 pools; aqua park; All Inclusive"
+  },
+  "Sentido Caribbean World Soma Bay": {
+    "JSM ID": "63",
+    "Hotel Name": "Sentido Caribbean World Soma Bay",
+    "Classification": "5★",
+    "Area": "Soma Bay",
+    "Verified Highlights": "604 units; private sandy beach; All Inclusive; pools/aqua park"
+  },
+  "AMC Royal Hotel & Spa": {
+    "JSM ID": "42",
+    "Hotel Name": "AMC Royal Hotel & Spa",
+    "Classification": "5★",
+    "Area": "Al Ahyaa, Hurghada",
+    "Verified Highlights": "Private beach; All Inclusive; pools; aqua park; spa"
+  },
+  "Amarina Abu Soma Resort & Aquapark": {
+    "JSM ID": "43",
+    "Hotel Name": "Amarina Abu Soma Resort & Aquapark",
+    "Classification": "5★",
+    "Area": "Abu Soma / Safaga",
+    "Verified Highlights": "Private sandy beach; pools; aqua park; spa"
+  },
+  "Coral Sun Beach Resort": {
+    "JSM ID": "44",
+    "Hotel Name": "Coral Sun Beach Resort",
+    "Classification": "4★",
+    "Area": "Gassous Bay / Safaga",
+    "Verified Highlights": "110 rooms; beachfront; private sandy beach; All Inclusive"
+  },
+  "Magic Beach Hotel": {
+    "JSM ID": "45",
+    "Hotel Name": "Magic Beach Hotel",
+    "Classification": "4★*",
+    "Area": "El Helal, Hurghada",
+    "Verified Highlights": "Beachfront/private beach; pools; water park; spa"
+  },
+  "Elysees Dream Beach Hotel by AMARINA": {
+    "JSM ID": "46",
+    "Hotel Name": "Elysees Dream Beach Hotel by AMARINA",
+    "Classification": "3–4★*",
+    "Area": "Sheraton Road / Mamsha",
+    "Verified Highlights": "Beachfront/private beach; pool; spa; dining"
+  },
+  "Giftun Azur Resort": {
+    "JSM ID": "47",
+    "Hotel Name": "Giftun Azur Resort",
+    "Classification": "4★",
+    "Area": "Village Road, Hurghada",
+    "Verified Highlights": "522 rooms; beachfront; pools; spa; kids facilities"
+  },
+  "Sheraton Soma Bay Resort": {
+    "JSM ID": "77",
+    "Hotel Name": "Sheraton Soma Bay Resort",
+    "Classification": "5★",
+    "Area": "Soma Bay",
+    "Verified Highlights": "Beachfront/private sandy beach; pools; Soma Splash; spa"
+  },
+  "Mövenpick Waterpark Resort & Spa Soma Bay": {
+    "JSM ID": "49",
+    "Hotel Name": "Mövenpick Waterpark Resort & Spa Soma Bay",
+    "Classification": "5★",
+    "Area": "Soma Bay",
+    "Verified Highlights": "418 rooms; private beach; pools; waterpark; spa"
+  },
+  "Mirage Bay Resort & Aqua Park": {
+    "JSM ID": "50",
+    "Hotel Name": "Mirage Bay Resort & Aqua Park",
+    "Classification": "4★",
+    "Area": "Sahl Hasheesh/Safaga Road",
+    "Verified Highlights": "700 units; private sandy beach; aqua park; All Inclusive"
+  },
+  "Lemon & Soul Makadi Bay": {
+    "JSM ID": "51",
+    "Hotel Name": "Lemon & Soul Makadi Bay",
+    "Classification": "4★",
+    "Area": "Makadi Bay",
+    "Verified Highlights": "281 rooms; 2 pools; shuttle to beach; spa"
+  },
+  "Seven Seas Jolie Bay": {
+    "JSM ID": "52",
+    "Hotel Name": "Seven Seas Jolie Bay",
+    "Classification": "5★",
+    "Area": "Soma Bay",
+    "Verified Highlights": "373 rooms; 6 pools; aqua park; sandy beach; Ultra All Inclusive"
+  },
+  "Moon Beach Resort": {
+    "JSM ID": "53",
+    "Hotel Name": "Moon Beach Resort",
+    "Classification": "4★*",
+    "Area": "El Dahar, Hurghada",
+    "Verified Highlights": "Beachfront/private beach; pools; water park; spa"
+  },
+  "Gravity Hotel & Aqua Park Hurghada": {
+    "JSM ID": "54",
+    "Hotel Name": "Gravity Hotel & Aqua Park Hurghada",
+    "Classification": "5★",
+    "Area": "Hurghada",
+    "Verified Highlights": "Beachfront/private beach; All Inclusive; aqua park; spa"
+  },
+  "Seagull Beach Resort": {
+    "JSM ID": "55",
+    "Hotel Name": "Seagull Beach Resort",
+    "Classification": "4★ Deluxe",
+    "Area": "Sheraton Road, Hurghada",
+    "Verified Highlights": "2 private sandy beaches; pools/aqua park; All Inclusive; spa"
+  },
+  "Sunny Days El Palacio Resort": {
+    "JSM ID": "56",
+    "Hotel Name": "Sunny Days El Palacio Resort",
+    "Classification": "4★",
+    "Area": "Corniche, Hurghada",
+    "Verified Highlights": "Beachfront/private beach; pools; slides; All Inclusive"
+  },
+  "Marlin Inn Azur Resort": {
+    "JSM ID": "57",
+    "Hotel Name": "Marlin Inn Azur Resort",
+    "Classification": "3–4★*",
+    "Area": "Touristic Road, Hurghada",
+    "Verified Highlights": "350 rooms; private sandy beach; All Inclusive; pool; spa"
+  },
+  "Al Basha / Le Pacha Resort": {
+    "JSM ID": "58",
+    "Hotel Name": "Al Basha / Le Pacha Resort",
+    "Classification": "4★*",
+    "Area": "Sheraton Road, Hurghada",
+    "Verified Highlights": "Beachfront/private beach; pool; water slides; spa"
+  },
+  "Panorama Bungalows Resort El Gouna": {
+    "JSM ID": "59",
+    "Hotel Name": "Panorama Bungalows Resort El Gouna",
+    "Classification": "4★",
+    "Area": "El Gouna",
+    "Verified Highlights": "Lagoon/beach access; pools; spa; family facilities"
+  },
+  "Plagio Luxury Resort": {
+    "JSM ID": "60",
+    "Hotel Name": "Plagio Luxury Resort",
+    "Classification": "Needs Verification",
+    "Area": "Hurghada",
+    "Verified Highlights": "Exact property identity/data requires verification"
+  },
+  "Gravity Hotel & Aqua Park Sahl Hasheesh": {
+    "JSM ID": "61",
+    "Hotel Name": "Gravity Hotel & Aqua Park Sahl Hasheesh",
+    "Classification": "5★",
+    "Area": "Sahl Hasheesh",
+    "Verified Highlights": "418 rooms; beachfront/private beach; 7 pools; aqua park; spa"
+  },
+  "The V Luxury Resort Sahl Hasheesh": {
+    "JSM ID": "62",
+    "Hotel Name": "The V Luxury Resort Sahl Hasheesh",
+    "Classification": "5★",
+    "Area": "Sahl Hasheesh",
+    "Verified Highlights": "347 rooms; beachfront; Ultra All Inclusive; pools; aqua park; spa"
+  },
+  "Titanic Resort Hurghada": {
+    "JSM ID": "64",
+    "Hotel Name": "Titanic Resort Hurghada",
+    "Classification": "4★",
+    "Area": "Hurghada",
+    "Verified Highlights": "328 rooms; aqua park; 30 slides; All Inclusive"
+  },
+  "Titanic Beach Spa & Aqua Park": {
+    "JSM ID": "65",
+    "Hotel Name": "Titanic Beach Spa & Aqua Park",
+    "Classification": "5★",
+    "Area": "Hurghada / Sahl Hasheesh Road",
+    "Verified Highlights": "726 rooms; private beach; Ultra All Inclusive; aqua park"
+  },
+  "Titanic Palace": {
+    "JSM ID": "66",
+    "Hotel Name": "Titanic Palace",
+    "Classification": "5★",
+    "Area": "Hurghada",
+    "Verified Highlights": "593 rooms; private beach; Ultra All Inclusive; aqua park"
+  },
+  "Titanic Royal": {
+    "JSM ID": "67",
+    "Hotel Name": "Titanic Royal",
+    "Classification": "5★",
+    "Area": "Hurghada",
+    "Verified Highlights": "387 rooms/suites; private beach; Ultra/All Inclusive; aqua park"
+  },
+  "DEXON Roma Hotel": {
+    "JSM ID": "68",
+    "Hotel Name": "DEXON Roma Hotel",
+    "Classification": "3★",
+    "Area": "Sheraton Street, Hurghada",
+    "Verified Highlights": "147 rooms; private beach across road; All Inclusive; pool/aqua facilities"
+  },
+  "El Karma Beach Resort & Aqua Park": {
+    "JSM ID": "69",
+    "Hotel Name": "El Karma Beach Resort & Aqua Park",
+    "Classification": "4★*",
+    "Area": "North Al Ahyaa / El Gouna Road",
+    "Verified Highlights": "Beachfront/private beach; All Inclusive; pools; waterpark"
+  },
+  "Fanadir Bay Aquapark All Inclusive Resort": {
+    "JSM ID": "70",
+    "Hotel Name": "Fanadir Bay Aquapark All Inclusive Resort",
+    "Classification": "Unverified",
+    "Area": "Al Ahyaa, Hurghada",
+    "Verified Highlights": "Private beach; All Inclusive; 4 pools; aqua park"
+  },
+  "Imperial Shams Abu Soma": {
+    "JSM ID": "72",
+    "Hotel Name": "Imperial Shams Abu Soma",
+    "Classification": "4★",
+    "Area": "Abu Soma",
+    "Verified Highlights": "Beachfront/private sandy beach; All Inclusive; pools; kids aqua park"
+  },
+  "Royal Lagoons Resort & Aqua Park": {
+    "JSM ID": "73",
+    "Hotel Name": "Royal Lagoons Resort & Aqua Park",
+    "Classification": "5★",
+    "Area": "Al Mamsha El Seyahi, Hurghada",
+    "Verified Highlights": "Beach shuttle; private sandy beach; 4 pools; aqua park; spa"
+  },
+  "Xanadu Makadi Bay": {
+    "JSM ID": "74",
+    "Hotel Name": "Xanadu Makadi Bay",
+    "Classification": "5★",
+    "Area": "Makadi Bay",
+    "Verified Highlights": "815 rooms; beachfront; High Class All Inclusive; pools; aqua park"
+  },
+  "Rewaya Inn Resort": {
+    "JSM ID": "75",
+    "Hotel Name": "Rewaya Inn Resort",
+    "Classification": "5★",
+    "Area": "Al Ahyaa, Hurghada",
+    "Verified Highlights": "Private sandy beach; All Inclusive; aqua park; pools"
+  },
+  "Sheraton Miramar Resort El Gouna": {
+    "JSM ID": "76",
+    "Hotel Name": "Sheraton Miramar Resort El Gouna",
+    "Classification": "5★",
+    "Area": "El Gouna",
+    "Verified Highlights": "339 rooms/suites; private beaches; 3 pools; spa; kids club"
+  },
+  "Hilton Hurghada Plaza": {
+    "JSM ID": "78",
+    "Hotel Name": "Hilton Hurghada Plaza",
+    "Classification": "5★",
+    "Area": "Gabal El Hareem, Hurghada",
+    "Verified Highlights": "531 units; beachfront/private sandy beach; pools; spa; kids facilities"
+  },
+  "DoubleTree by Hilton Mangroovy El Gouna Resort": {
+    "JSM ID": "79",
+    "Hotel Name": "DoubleTree by Hilton Mangroovy El Gouna Resort",
+    "Classification": "5★",
+    "Area": "Mangroovy, El Gouna",
+    "Verified Highlights": "Private sandy beach; outdoor pool; spa; fitness"
+  },
+  "Kempinski Hotel Soma Bay": {
+    "JSM ID": "80",
+    "Hotel Name": "Kempinski Hotel Soma Bay",
+    "Classification": "5★",
+    "Area": "Soma Bay",
+    "Verified Highlights": "325 rooms/suites; 400m private sandy beach; pools; spa/thalasso"
+  }
+}

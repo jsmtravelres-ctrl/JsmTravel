@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JSM TRAVEL — Growth & Analytics</title>
+<style>
+body{font-family:Arial,sans-serif;margin:0;background:#f5f7fb;color:#172033}
+header{background:#102a43;color:#fff;padding:22px}main{max-width:1100px;margin:25px auto;padding:0 16px}
+.card{background:#fff;border-radius:14px;padding:18px;margin-bottom:18px;box-shadow:0 3px 15px #0000000d}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}
+.metric{font-size:30px;font-weight:700}.muted{color:#6b7280}
+input,button{padding:11px;border:1px solid #ccd3dd;border-radius:9px;font-size:15px}
+button{cursor:pointer;background:#0b63ce;color:#fff;border:0}.row{display:flex;gap:10px;flex-wrap:wrap}
+table{width:100%;border-collapse:collapse}th,td{padding:10px;border-bottom:1px solid #e7eaf0;text-align:right}
+</style>
+<link rel="stylesheet" href="jsm-sky-ui.css"></head>
+<body>
+<header><h1>JSM TRAVEL — Growth & Analytics</h1><div>لوحة متابعة الزيارات → CTA → الطلبات</div></header>
+<main>
+<div class="card"><div class="row"><input id="key" type="password" placeholder="ADMIN_API_KEY"><button id="load">تحميل البيانات</button></div><p class="muted">يتم استخدام المفتاح فقط للوصول إلى ملخص التحليلات والطلبات من Worker.</p></div>
+<div id="status" class="card">جاهز.</div>
+<div id="metrics" class="grid"></div>
+<div class="card"><h2>أكثر الصفحات زيارة</h2><div id="pages"></div></div>
+<div class="card"><h2>أكثر نقاط التحويل ضغطاً</h2><div id="targets"></div></div>
+<div class="card"><h2>آخر الطلبات</h2><div id="leads"></div></div>
+</main>
+<script>
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+async function api(path,key){const r=await fetch(path,{headers:{Authorization:'Bearer '+key}});return await r.json();}
+function table(rows,cols){if(!rows.length)return '<p class="muted">لا توجد بيانات بعد.</p>';return '<table><thead><tr>'+cols.map(c=>'<th>'+esc(c[1])+'</th>').join('')+'</tr></thead><tbody>'+rows.map(x=>'<tr>'+cols.map(c=>'<td>'+esc(x[c[0]])+'</td>').join('')+'</tr>').join('')+'</tbody></table>'}
+document.getElementById('load').onclick=async()=>{
+ const key=document.getElementById('key').value.trim(); if(!key)return;
+ document.getElementById('status').textContent='جارٍ التحميل...';
+ try{
+  const [s,l]=await Promise.all([api('/api/analytics/summary?days=30',key),api('/api/admin/leads?limit=50',key)]);
+  if(s.mode!=='live'){document.getElementById('status').textContent=s.message||'فشل الوصول';return;}
+  const t=s.totals||{};
+  document.getElementById('metrics').innerHTML=[
+   ['events','كل الأحداث'],['sessions','الجلسات'],['pageviews','مشاهدات الصفحات'],['cta_clicks','نقرات CTA'],['request_submits','إرسال الطلبات']
+  ].map(x=>'<div class="card"><div class="muted">'+x[1]+'</div><div class="metric">'+Number(t[x[0]]||0).toLocaleString('ar-EG')+'</div></div>').join('');
+  document.getElementById('pages').innerHTML=table(s.topPages||[],[['page_path','الصفحة'],['views','الزيارات']]);
+  document.getElementById('targets').innerHTML=table(s.topTargets||[],[['target','الهدف'],['clicks','النقرات']]);
+  document.getElementById('leads').innerHTML=table(l.leads||[],[['id','ID'],['service_type','الخدمة'],['destination','الوجهة'],['travel_date','التاريخ'],['travellers','المسافرون'],['phone','الهاتف'],['stage','الحالة'],['created_at','التاريخ']]);
+  document.getElementById('status').textContent='تم التحديث.';
+ }catch(e){document.getElementById('status').textContent='تعذر الاتصال بالـWorker.'}
+};
+</script>
+</body></html>

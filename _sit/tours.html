@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>الجولات السياحية | JSM TRAVEL</title>
+<meta name="description" content="جولات JSM TRAVEL داخل مصر وحول العالم — تركيا، إيطاليا، إسبانيا، اليونان، أذربيجان، تايلاند ووجهات مصرية مميزة.">
+<link rel="canonical" href="https://jsmtravel.net/tours.html">
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="jsm-sky-ui.css">
+</head>
+<body>
+<header class="topbar"><div class="container nav">
+<a class="brand" href="index.html"><img src="jsm-globe-logo.png" alt="JSM TRAVEL"><span>JSM</span> TRAVEL</a>
+<nav>
+<a href="index.html">الرئيسية</a><a href="global-booking.html">تذاكر الطيران</a>
+<a href="destinations.html">الفنادق والوجهات</a><a href="domestic-trips.html">السياحة الداخلية</a>
+<a href="international-trips.html">السياحة الخارجية</a><a href="tours.html">الجولات</a>
+<a href="hajj-umrah.html">الحج والعمرة</a><a href="honeymoon.html">شهر العسل</a>
+<a href="contact.html">تواصل معنا</a>
+</nav><a class="lang" href="en.html">English</a></div></header>
+
+<main>
+<section class="page-hero"><div class="container">
+<p class="eyebrow">JSM TRAVEL • TOURS</p>
+<h1>الجولات السياحية</h1>
+<p>من الاسترخاء إلى المغامرة، اختر وجهتك واستكشف البرامج التي تناسبك داخل مصر وحول العالم.</p>
+</div></section>
+
+<section class="container">
+<div class="sky-search">
+<div class="sky-search-grid">
+<div><label>ابحث عن الجولة</label><input id="q" placeholder="اسم الجولة أو المدينة"></div>
+<div><label>الدولة</label><select id="country"><option value="">كل الدول</option></select></div>
+<div><label>العملة</label><select id="currency"><option value="">كل العملات</option><option value="EGP">جنيه مصري</option><option value="USD">دولار</option></select></div>
+<div><label>ترتيب النتائج</label><select id="sort"><option value="">الأحدث</option><option value="price">السعر من الأقل</option><option value="title">الاسم</option></select></div>
+<button class="btn primary" id="searchBtn">أبحث الآن</button>
+</div>
+<div id="status" style="margin-top:12px;color:#718390;font-size:13px;font-weight:800"></div>
+</div>
+</section>
+
+<section class="section"><div class="container">
+<div class="sky-section-head"><p class="eyebrow">DESTINATIONS</p><h2>اختر وجهتك</h2><p class="lead" style="color:#6b7c88;margin:auto">وجهات مختارة لبرامج السفر والجولات السياحية.</p></div>
+<div class="sky-country-grid" id="countryGrid"></div>
+</div></section>
+
+<section class="section alt"><div class="container">
+<div class="sky-section-head"><p class="eyebrow">JSM TRAVEL COLLECTION</p><h2>برامج الجولات</h2></div>
+<div id="grid" class="sky-tour-grid"></div>
+</div></section>
+
+<section class="section"><div class="container" style="background:linear-gradient(120deg,#062a49,#087fa8);border-radius:24px;padding:45px;color:#fff;text-align:center">
+<h2 style="color:#fff">لم تجد البرنامج المناسب؟</h2>
+<p>نصمم لك برنامجًا خاصًا حسب الوجهة، المدة، الفندق والميزانية.</p>
+<a class="btn primary" href="index.html#contact">اطلب برنامجك الخاص</a>
+</div></section>
+</main>
+
+<footer><div class="container"><b>JSM TRAVEL</b><span>ثقة بلا حدود معانا</span><small>© 2026 JSM TRAVEL · <a href="privacy.html">الخصوصية</a> · <a href="terms.html">الشروط</a></small></div></footer>
+
+<script>
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let data=[];
+const q=document.getElementById('q'),country=document.getElementById('country'),currency=document.getElementById('currency'),
+sort=document.getElementById('sort'),grid=document.getElementById('grid'),status=document.getElementById('status'),countryGrid=document.getElementById('countryGrid');
+function render(){
+ let a=data.filter(x=>(!q.value||`${x.title} ${x.city} ${x.country} ${x.details}`.toLowerCase().includes(q.value.toLowerCase()))
+ &&(!country.value||x.country===country.value)&&(!currency.value||x.currency===currency.value));
+ if(sort.value==='price')a.sort((x,y)=>(Number(x.price)||0)-(Number(y.price)||0));
+ if(sort.value==='title')a.sort((x,y)=>String(x.title).localeCompare(String(y.title),'ar'));
+ status.textContent=`تم العثور على ${a.length} برنامج`;
+ grid.innerHTML=a.map(x=>`<article class="sky-tour-card">
+ <div class="img">${x.image?`<img src="${esc(x.image)}" alt="${esc(x.title)}" loading="lazy">`:''}</div>
+ <div class="body"><span class="tag">${esc(x.country)}${x.city?' • '+esc(x.city):''}</span>
+ <h3>${esc(x.title)}</h3><p>${esc(x.details||'برنامج سياحي مميز من JSM TRAVEL.')}</p>
+ <div class="sky-price">${esc(x.price||'اطلب السعر')} ${esc(x.currency||'')}</div>
+ <a class="btn primary" href="index.html#contact" data-cta="tour-request:${esc(x.title)}">اطلب الجولة</a></div></article>`).join('')||'<p>لا توجد نتائج مطابقة.</p>';
+}
+fetch('tours-data.json').then(r=>r.json()).then(x=>{
+ data=Array.isArray(x)?x:[];
+ [...new Set(data.map(x=>x.country).filter(Boolean))].sort().forEach(c=>{
+  country.insertAdjacentHTML('beforeend',`<option value="${esc(c)}">${esc(c)}</option>`);
+  countryGrid.insertAdjacentHTML('beforeend',`<a class="sky-country" href="#" data-country="${esc(c)}">${esc(c)}</a>`);
+ });
+ render();
+}).catch(()=>{status.textContent='تعذر تحميل بيانات الجولات حاليًا.'});
+[q,country,currency,sort].forEach(x=>x.addEventListener('input',render));
+document.getElementById('searchBtn').addEventListener('click',render);
+countryGrid.addEventListener('click',e=>{const a=e.target.closest('[data-country]');if(!a)return;e.preventDefault();country.value=a.dataset.country;render();document.getElementById('grid').scrollIntoView({behavior:'smooth'});});
+</script>
+</body></html>

@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS leads (id INTEGER PRIMARY KEY AUTOINCREMENT, source TEXT, service_type TEXT, destination TEXT, travel_date TEXT, travellers INTEGER, phone TEXT, notes TEXT, stage TEXT DEFAULT 'new', created_at TEXT DEFAULT CURRENT_TIMESTAMP);

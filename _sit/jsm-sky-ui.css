@@ -1,0 +1,88 @@
+
+/* JSM TRAVEL — Sky-inspired visual system (original design, not a copy) */
+:root{
+  --jsm-navy:#062a49;--jsm-blue:#087fa8;--jsm-cyan:#10b8df;
+  --jsm-gold:#e8ad38;--jsm-cream:#fffaf0;--jsm-bg:#f5f8fa;
+  --jsm-ink:#163247;--jsm-muted:#6b7c88;--jsm-line:#e3e9ed;
+  --jsm-shadow:0 18px 50px rgba(6,42,73,.10);
+}
+body{font-family:"Cairo","Tahoma","Arial",sans-serif!important;background:var(--jsm-bg)!important;color:var(--jsm-ink)}
+.topbar{background:#fff!important;border-bottom:1px solid var(--jsm-line)!important;box-shadow:0 3px 18px rgba(6,42,73,.06)!important}
+.topbar .nav{min-height:82px}
+.topbar .brand{font-size:25px;color:var(--jsm-navy)}
+.topbar .brand img{width:52px!important;height:52px!important;border-radius:50%!important}
+.topbar .brand span{color:var(--jsm-blue)!important}
+.topbar nav{gap:4px!important}
+.topbar nav a{padding:10px 12px;border-radius:10px;color:var(--jsm-navy)}
+.topbar nav a:hover{background:#eef8fb;color:var(--jsm-blue)}
+.lang{border-color:#d7e2e8!important;color:var(--jsm-navy)!important}
+.page-hero{
+  position:relative!important;overflow:hidden!important;
+  padding:86px 20px 105px!important;
+  background:linear-gradient(120deg,#062a49 0%,#087fa8 100%)!important;
+  color:#fff!important;
+}
+.page-hero:after{content:"";position:absolute;left:-5%;right:-5%;bottom:-95px;height:150px;background:var(--jsm-bg);border-radius:50% 50% 0 0/100% 100% 0 0}
+.page-hero .container{position:relative;z-index:2}
+.page-hero h1{font-size:clamp(36px,5vw,62px)!important;margin:8px 0!important}
+.page-hero p:not(.eyebrow){max-width:760px;font-size:18px;color:#eef9fc}
+.section{padding:70px 0!important}
+.section h2{color:var(--jsm-navy)}
+.card,.detail-card,.offer,.cards article,.hotel,.service-card{
+  border:1px solid var(--jsm-line)!important;border-radius:18px!important;
+  box-shadow:var(--jsm-shadow)!important;background:#fff!important
+}
+.btn.primary{background:linear-gradient(135deg,#f3c65b,#e09a20)!important;color:#12283b!important}
+input,select,textarea{border:1px solid #d6e1e7!important;border-radius:11px!important}
+footer{background:var(--jsm-navy)!important;color:#dfeaf0!important;padding:44px 0!important;margin-top:40px}
+footer a{color:#fff}
+.filters{background:#fff;border:1px solid var(--jsm-line);padding:18px;border-radius:18px;box-shadow:var(--jsm-shadow)}
+/* Homepage OTA shell */
+.ota-nav{background:rgba(255,255,255,.97)!important;border-bottom:1px solid var(--jsm-line)!important;box-shadow:0 4px 24px rgba(6,42,73,.07)!important}
+.ota-logo{color:var(--jsm-navy)!important}
+.ota-logo img{width:56px!important;height:56px!important}
+.ota-logo span{color:var(--jsm-blue)!important}
+.ota-nav nav a{color:var(--jsm-navy)!important}
+.ota-nav nav a:hover{background:#eef8fb!important;color:var(--jsm-blue)!important}
+.ota-icon{color:var(--jsm-navy)!important;border-color:#dce6eb!important;background:#fff!important}
+.ota-lang{background:var(--jsm-navy)!important;color:#fff!important}
+.ota-hero{min-height:650px!important;background:linear-gradient(90deg,rgba(4,32,56,.82),rgba(4,32,56,.22)),url('jsm-home-poster.jpg') center/cover no-repeat!important}
+.ota-search{border-radius:18px!important}
+.ota-tab.active{color:var(--jsm-blue)!important;background:var(--jsm-cream)!important;box-shadow:inset 0 -3px var(--jsm-gold)!important}
+.ota-btn.gold{background:linear-gradient(135deg,#f5c95f,#e19a22)!important}
+.ota-section{padding-top:62px!important}
+.dest-card{border-radius:18px!important}
+.dest-card:after{background:linear-gradient(transparent,rgba(4,30,53,.9))!important}
+/* Tour cards */
+.sky-tour-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.sky-tour-card{background:#fff;border:1px solid var(--jsm-line);border-radius:18px;overflow:hidden;box-shadow:var(--jsm-shadow);transition:.2s}
+.sky-tour-card:hover{transform:translateY(-5px)}
+.sky-tour-card .img{height:205px;background:linear-gradient(135deg,#dbeef5,#edf3f6);overflow:hidden}
+.sky-tour-card .img img{width:100%;height:100%;object-fit:cover}
+.sky-tour-card .body{padding:20px}
+.sky-tour-card .tag{display:inline-block;background:#eef8fb;color:#087fa8;border-radius:999px;padding:5px 10px;font-size:12px;font-weight:900}
+.sky-tour-card h3{margin:10px 0 5px;color:var(--jsm-navy)}
+.sky-tour-card p{color:var(--jsm-muted);font-size:14px;min-height:55px}
+.sky-price{font-size:24px;font-weight:950;color:#d48a11;margin:12px 0}
+.sky-search{background:#fff;border-radius:20px;border:1px solid var(--jsm-line);box-shadow:0 22px 60px rgba(6,42,73,.12);padding:22px;margin-top:-48px;position:relative;z-index:5}
+.sky-search-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr auto;gap:10px}
+.sky-search label{font-size:12px;font-weight:900;color:#567080;display:block;margin-bottom:5px}
+.sky-search input,.sky-search select{height:50px;width:100%;padding:0 12px}
+.sky-country-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.sky-country{display:block;text-decoration:none;background:#fff;border:1px solid var(--jsm-line);border-radius:14px;padding:18px;text-align:center;font-weight:900;color:var(--jsm-navy);box-shadow:0 8px 28px rgba(6,42,73,.06);transition:.2s}
+.sky-country:hover{transform:translateY(-3px);border-color:#a9ddea;color:var(--jsm-blue)}
+.sky-section-head{text-align:center;margin-bottom:30px}
+.sky-section-head .eyebrow{color:var(--jsm-blue)!important}
+@media(max-width:900px){
+ .topbar .nav{flex-wrap:wrap;padding:10px 0}
+ .topbar nav{order:3;width:100%;overflow:auto;white-space:nowrap}
+ .sky-tour-grid{grid-template-columns:repeat(2,1fr)}
+ .sky-country-grid{grid-template-columns:repeat(3,1fr)}
+ .sky-search-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:600px){
+ .sky-tour-grid{grid-template-columns:1fr}
+ .sky-country-grid{grid-template-columns:1fr 1fr}
+ .sky-search-grid{grid-template-columns:1fr}
+ .page-hero{padding:62px 16px 90px!important}
+}
